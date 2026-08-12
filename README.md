@@ -38,7 +38,9 @@ owning role to sign it.
    `targets/`; delete `metadata/`, which belongs to *this* repository's signers.
 2. Create a GitHub App in the owning organisation with **Contents**, **Pull requests** and
    **Checks** set to *Read and write*, install it on the new repository, and set the
-   `TUF_CI_APP_ID` variable and `TUF_CI_APP_PRIVATE_KEY` secret.
+   `TUF_CI_APP_CLIENT_ID` variable (the App's Client ID, `Iv23li…`) and the
+   `TUF_CI_APP_PRIVATE_KEY` secret. Installing the App on the repository is a separate
+   step from creating it, and skipping it makes the workflow fail with a 404.
 3. Repoint the `uses:` in `.github/workflows/signing-event.yml` at the `tuf-ci` commit you
    want to run.
 4. Require the `tuf-ci/signatures` check in branch protection on `main`.
