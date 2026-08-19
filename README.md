@@ -1,51 +1,69 @@
-# TUF repository
+# A TUF repository
 
-A [TUF](https://theupdateframework.io) repository managed with
-[tuf-ci](https://github.com/rf-signing-experiment/tuf-ci): metadata is signed on YubiKeys
-by its signers, and administered through pull requests.
+The metadata lives in `metadata/`, the artifacts it vouches for in `targets/`. Changes are
+made on `sign/*` branches, reviewed as pull requests, and signed on YubiKeys. CI reports
+who still has to sign and publishes a check that gates the merge.
 
-- `metadata/` — TUF metadata. Written by `tuf-sign` and by CI, never by hand.
-- `targets/` — the artifacts this repository vouches for.
+## Setting this repository up
 
-## Signing
+1. **Create the repository from this template**, then delete this section from the README.
+2. **Create a GitHub App** in the organisation that owns the repository, with these
+   repository permissions:
 
-Clone this repository and install `tuf-sign`. Then:
+   | Permission | Level | Why |
+   |---|---|---|
+   | Contents | Read and write | commit rebuilt targets metadata to the event branch |
+   | Pull requests | Read and write | open and update the signing event pull request |
+   | Checks | Read and write | publish the merge gate |
+   | Metadata | Read-only | mandatory, selected for you |
+
+   It needs no webhook.
+
+3. **Install the App on this repository.** Installing is a separate step from creating; an
+   App that exists but is not installed authenticates fine and then fails with
+   `Not Found — /repos/{owner}/{repo}/installation`, which reads like a missing repository
+   rather than a missing installation.
+
+4. **Add the credentials.** Store the App's **Client ID** (`Iv23li…` from its settings
+   page, not the numeric App ID) as the `TUF_CI_APP_CLIENT_ID` variable, and the generated
+   private key as the `TUF_CI_APP_PRIVATE_KEY` secret.
+
+5. **Pin the action.** `.github/workflows/signing-event.yml` points at `@main`; change it
+   to the `tuf-ci` commit you want to run, by SHA.
+
+6. **Push all of that to the default branch — before creating any signing event.** A push
+   event runs the workflow as it exists in the pushed commit, so a `sign/*` branch cut from
+   a base branch without the workflow will push successfully and then do nothing at all.
+
+7. **Create the metadata**: `tuf-sign init sign/init`. Whoever runs this becomes the
+   repository's first signer, so have your YubiKey to hand.
+
+8. **Require the `tuf-ci/signatures` check** in branch protection on the default branch.
+   Without it the report is advisory and nothing stops an unsigned merge.
+
+## Working in it
+
+Adding an artifact is an ordinary commit:
 
 ```console
-$ tuf-sign key      # check your YubiKey is set up
-$ tuf-sign          # list the signing events waiting on you, and act on one
+$ git switch -c sign/add-serde origin/main
+$ mkdir -p targets/crates && cp serde-1.0.0.crate targets/crates/
+$ git add targets && git commit -m 'Add serde 1.0.0' && git push -u origin HEAD
 ```
 
-A pull request labelled *Signing event* will say who has yet to sign. It cannot be merged
-until the `tuf-ci/signatures` check passes.
+CI turns that into a targets metadata change and the pull request says who has to sign it.
+Signers run `tuf-sign sign/add-serde`.
 
-## Publishing an artifact
+Changing who may sign a role, or adding a delegated role, is
+`tuf-sign delegate sign/<event> <role>`.
 
-An ordinary commit on a branch whose name starts with `sign/`:
+## Rules the metadata lives by
 
-```console
-$ git switch -c sign/add-something origin/main
-$ cp something targets/
-$ git add targets && git commit -m 'Add something' && git push -u origin HEAD
-```
-
-CI turns that into a metadata change, opens a pull request, and asks the signers of the
-owning role to sign it.
-
-## Using this repository as a template
-
-1. Create a repository from this template. Keep `.github/`, `.gitattributes` and
-   `targets/`; delete `metadata/`, which belongs to *this* repository's signers.
-2. Create a GitHub App in the owning organisation with **Contents**, **Pull requests** and
-   **Checks** set to *Read and write*, install it on the new repository, and set the
-   `TUF_CI_APP_CLIENT_ID` variable (the App's Client ID, `Iv23li…`) and the
-   `TUF_CI_APP_PRIVATE_KEY` secret. Installing the App on the repository is a separate
-   step from creating it, and skipping it makes the workflow fail with a 404.
-3. Repoint the `uses:` in `.github/workflows/signing-event.yml` at the `tuf-ci` commit you
-   want to run.
-4. Require the `tuf-ci/signatures` check in branch protection on `main`.
-5. Push all of the above to `main`, and only then run `tuf-sign init sign/init`.
-
-Step 5 is in that order for a reason: a push event runs the workflow as it exists in the
-pushed commit, so a `sign/*` branch cut from a `main` without the workflow will push
-successfully and report nothing.
+- **Never reformat anything under `metadata/`.** A signature covers the exact bytes of its
+  payload file, so a reformat — an editor-on-save, a JSON prettifier, a merge tool
+  rewriting line endings — invalidates every signature already collected. `.gitattributes`
+  turns off line-ending translation; the rest is discipline.
+- **One open signing event per role.** Two events that both propose version N+1 of the same
+  role cannot both merge, and rebasing the loser means collecting its signatures again.
+- **`snapshot` and `timestamp` are signed automatically** and must not be changed in a
+  signing event; a branch that touches them is reported as an error.

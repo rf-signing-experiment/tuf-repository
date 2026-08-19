@@ -1,6 +1,0 @@
-Artifacts go here.
-
-Files directly in this directory belong to the "targets" role. Files under <role>/ belong
-to the delegated role of that name, up to four directory levels deep.
-
-Dotfiles such as this one are skipped, so holding the directory open costs nothing.
