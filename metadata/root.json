@@ -1,0 +1,75 @@
+{
+  "_type": "root",
+  "consistent_snapshot": true,
+  "expires": "2027-08-19T21:11:45Z",
+  "keys": {
+    "6d1392aba20a3c117faf3f9ef2c66f4271a364635ca0eed6d2f41acce9e7f09d": {
+      "keytype": "ecdsa",
+      "keyval": {
+        "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEN0vMP1unwvAk6LDIoQ+eKMZ8Pknk\nIcoQar1fn+Bm8fL5oDbMIUUSdDUNmvpBvLqnF8T1ns4IbHXDOQdfiGC8bQ==\n-----END PUBLIC KEY-----\n"
+      },
+      "scheme": "ecdsa-sha2-nistp256"
+    },
+    "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9": {
+      "keytype": "ecdsa",
+      "keyval": {
+        "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR\nkyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==\n-----END PUBLIC KEY-----\n"
+      },
+      "scheme": "ecdsa-sha2-nistp256"
+    }
+  },
+  "roles": {
+    "root": {
+      "keyids": [
+        "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9"
+      ],
+      "threshold": 1
+    },
+    "snapshot": {
+      "keyids": [
+        "6d1392aba20a3c117faf3f9ef2c66f4271a364635ca0eed6d2f41acce9e7f09d"
+      ],
+      "threshold": 1
+    },
+    "targets": {
+      "keyids": [
+        "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9"
+      ],
+      "threshold": 1
+    },
+    "timestamp": {
+      "keyids": [
+        "6d1392aba20a3c117faf3f9ef2c66f4271a364635ca0eed6d2f41acce9e7f09d"
+      ],
+      "threshold": 1
+    }
+  },
+  "spec_version": "1.0.0",
+  "version": 1,
+  "x-tuf-ci": {
+    "online": {
+      "6d1392aba20a3c117faf3f9ef2c66f4271a364635ca0eed6d2f41acce9e7f09d": "gcpkms/demo"
+    },
+    "periods": {
+      "root": {
+        "expiry-days": 365,
+        "signing-days": 60
+      },
+      "snapshot": {
+        "expiry-days": 365,
+        "signing-days": 60
+      },
+      "targets": {
+        "expiry-days": 365,
+        "signing-days": 60
+      },
+      "timestamp": {
+        "expiry-days": 7,
+        "signing-days": 4
+      }
+    },
+    "signers": {
+      "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9": "@arlosi"
+    }
+  }
+}
