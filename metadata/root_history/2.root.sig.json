@@ -1,6 +1,10 @@
 {
   "signatures": [
     {
+      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
+      "sig": "MEUCIDpwUvfKO/k8xfZ+KlSEh3CWFxtZrX1+9lFzt9nTjqrnAiEA+OPx66cwVQTN+fH8W3osxRShQ1GcQAGxUwPTuZLD05A="
+    },
+    {
       "keyid": "d8d3b4b1f758866314ec39da47d2d3673cc78d627074c05326a57806c319614f",
       "sig": "MEUCIQDbgPcGCeyyVXoRTWJs5/6SWy/WTtxmTNvuG/GBDDRsfQIgI+IjLFLbkTDFSIBTe8LjxNbnOTa8WV8jadcnWlK+0Bo="
     }
