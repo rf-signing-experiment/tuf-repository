@@ -1,7 +1,14 @@
 {
   "_type": "targets",
-  "expires": "2027-08-20T03:33:18Z",
+  "expires": "2027-08-20T03:47:38Z",
   "spec_version": "1.0.0",
-  "targets": {},
-  "version": 1
+  "targets": {
+    "rustup/rustup": {
+      "hashes": {
+        "sha256": "924053075e6df70019176c26eb71f5a7f2c7c572ba7c19c41862d000e261ec54"
+      },
+      "length": 17
+    }
+  },
+  "version": 2
 }
