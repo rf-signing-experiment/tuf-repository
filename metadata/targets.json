@@ -1,7 +1,45 @@
 {
   "_type": "targets",
-  "expires": "2027-08-19T21:11:45Z",
+  "delegations": {
+    "keys": {
+      "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9": {
+        "keytype": "ecdsa",
+        "keyval": {
+          "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR\nkyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==\n-----END PUBLIC KEY-----\n"
+        },
+        "scheme": "ecdsa-sha2-nistp256"
+      }
+    },
+    "roles": [
+      {
+        "keyids": [
+          "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9"
+        ],
+        "name": "rustup",
+        "paths": [
+          "rustup/*",
+          "rustup/*/*",
+          "rustup/*/*/*",
+          "rustup/*/*/*/*"
+        ],
+        "terminating": true,
+        "threshold": 1
+      }
+    ]
+  },
+  "expires": "2027-08-20T03:33:18Z",
   "spec_version": "1.0.0",
   "targets": {},
-  "version": 1
+  "version": 2,
+  "x-tuf-ci": {
+    "periods": {
+      "rustup": {
+        "expiry-days": 365,
+        "signing-days": 60
+      }
+    },
+    "signers": {
+      "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9": "@arlosi"
+    }
+  }
 }
