@@ -1,0 +1,20 @@
+{
+  "invites": {
+    "@walterhpearce": [
+      "rustup"
+    ]
+  },
+  "pending": {
+    "rustup": {
+      "signers": [
+        "@arlosi",
+        "@walterhpearce"
+      ],
+      "threshold": 2,
+      "periods": {
+        "expiry-days": 365,
+        "signing-days": 60
+      }
+    }
+  }
+}
