@@ -1,4 +1,4 @@
-storage = "gs://my-tuf-repo"          # or gs://bucket/prefix
+storage = "gs://tufops"          # or gs://bucket/prefix
 
 [keys.arlosi]
 owner = "@arlosi"                      # GitHub user who holds this YubiKey
