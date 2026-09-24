@@ -1,23 +1,17 @@
 {
-  "signatures": [
-    {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3046022100e807001de31d433973ad9bcf675137b81f8cc5e3dc728044d1e9e34abafe01d20221009f6cd44f881695fe666a84e3d4bcbda78ecb1c2c52f75c997cfbb8cfdab2ae3e"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
-    "expires": "2027-09-24T03:52:06Z",
+    "expires": "2027-09-24T14:21:03Z",
     "spec_version": "1.0.0",
     "targets": {
       "rustup/manual.md": {
         "hashes": {
-          "sha256": "1763c0500b901a021b8496ecf3d9c7e792e0c11fcdcb67d3dd102112deed4b84"
+          "sha256": "9190e25d04fd8554a8aa54ac82fb722507a106de3a007a0d96dc46589d96ef3e"
         },
-        "length": 22282
+        "length": 1052
       }
     },
-    "version": 2,
-    "x-tufops-expires-days": 365
+    "version": 3
   }
 }
