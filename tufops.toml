@@ -1,0 +1,43 @@
+storage = "gs://my-tuf-repo"          # or gs://bucket/prefix
+
+[keys.arlosi]
+owner = "@arlosi"                      # GitHub user who holds this YubiKey
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR
+kyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==
+-----END PUBLIC KEY-----
+"""
+
+[keys.online]
+online = "gcpkms:projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/online/cryptoKeyVersions/1"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEurRtI7rt0SeiUzZYtRIazNqugoF1
+hd46conktN9SA/x/GioyP9MVC1Rf/lK2VFq1mQo0uXL452CDxz+4iVB0EA==
+-----END PUBLIC KEY-----
+"""
+
+[roles.root]
+keys = ["arlosi"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[roles.targets]
+keys = ["arlosi"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[roles.snapshot]
+keys = ["online"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[roles.timestamp]
+keys = ["online"]
+threshold = 1
+expires_days = 2
+signing_days = 1
