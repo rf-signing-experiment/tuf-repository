@@ -22,7 +22,7 @@ hd46conktN9SA/x/GioyP9MVC1Rf/lK2VFq1mQo0uXL452CDxz+4iVB0EA==
 keys = ["arlosi"]
 threshold = 1
 expires_days = 365
-signing_days = 60
+signing_days = 180
 
 [roles.targets]
 keys = ["arlosi"]
