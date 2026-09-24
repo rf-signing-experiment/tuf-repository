@@ -1,5 +1,10 @@
 {
-  "signatures": [],
+  "signatures": [
+    {
+      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
+      "sig": "3046022100a331f7c4af69fa56ed5c2f5088fe2ec24c09bc8916d1f0fb5cdc1ad0ebed390b022100e28d5744aeb6d12655b485b3fe0113f837a464d7a5beda319ec98689c660e7bf"
+    }
+  ],
   "signed": {
     "_type": "targets",
     "delegations": {
