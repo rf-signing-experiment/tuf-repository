@@ -1,5 +1,10 @@
 {
-  "signatures": [],
+  "signatures": [
+    {
+      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
+      "sig": "3046022100e807001de31d433973ad9bcf675137b81f8cc5e3dc728044d1e9e34abafe01d20221009f6cd44f881695fe666a84e3d4bcbda78ecb1c2c52f75c997cfbb8cfdab2ae3e"
+    }
+  ],
   "signed": {
     "_type": "targets",
     "expires": "2027-09-24T03:52:06Z",
