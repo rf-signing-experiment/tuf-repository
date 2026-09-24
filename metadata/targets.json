@@ -2,7 +2,7 @@
   "signatures": [
     {
       "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3044021f55afebb6f4fb95ca497dc0b3319ae7f9fec2c9721c3020f5bb30a1b17d20ad022100eb4530a2f921b6455b782da290233dc8c6e992e7a07439caa2d4f0e5a3f72d16"
+      "sig": "3046022100ec25311679d40d6bb6752002197f78d9a9a0af3ab95b87e3b0ad27d7af11ede4022100ed4d897937e6c36b01394e5a8631ad0f6f31765bfcd28078d39baf33a3543664"
     }
   ],
   "signed": {
@@ -32,6 +32,17 @@
           "name": "channels-beta",
           "paths": [
             "channels/beta/"
+          ],
+          "terminating": true,
+          "threshold": 1
+        },
+        {
+          "keyids": [
+            "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0"
+          ],
+          "name": "channels-current",
+          "paths": [
+            "channels/current/"
           ],
           "terminating": true,
           "threshold": 1
@@ -71,7 +82,7 @@
         }
       ]
     },
-    "expires": "2027-09-24T22:42:44Z",
+    "expires": "2027-09-24T23:12:51Z",
     "spec_version": "1.0.0",
     "targets": {
       "channels/current-beta.toml": {
@@ -93,6 +104,6 @@
         "length": 898637
       }
     },
-    "version": 5
+    "version": 6
   }
 }
