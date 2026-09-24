@@ -2,7 +2,7 @@
   "signatures": [
     {
       "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3046022100ec25311679d40d6bb6752002197f78d9a9a0af3ab95b87e3b0ad27d7af11ede4022100ed4d897937e6c36b01394e5a8631ad0f6f31765bfcd28078d39baf33a3543664"
+      "sig": "3044022016d37ed63b31114b7206dd3e190c2f3bb088326fa8a45f0e658b9137b13da7fb0220624293549a0c1a1cbc0d259284ff7d4247e21fa8ee4556c11e09c556d9e7881f"
     }
   ],
   "signed": {
@@ -82,28 +82,9 @@
         }
       ]
     },
-    "expires": "2027-09-24T23:12:51Z",
+    "expires": "2027-09-24T23:30:20Z",
     "spec_version": "1.0.0",
-    "targets": {
-      "channels/current-beta.toml": {
-        "hashes": {
-          "sha256": "f354aeb103b726b016d19d7f70d3c6419dfeb39a5ed7b29d6f63eb959713c34e"
-        },
-        "length": 941133
-      },
-      "channels/current-nightly.toml": {
-        "hashes": {
-          "sha256": "7f26ba9be2b4ee4ce3ab893a711bac3df2faedfb12ea4c1e9834d1b5ceac1504"
-        },
-        "length": 923466
-      },
-      "channels/current-stable.toml": {
-        "hashes": {
-          "sha256": "a7c8774a5fd8441c997d94c029776cbc5eb111e9d72ab5d256fa69866644347e"
-        },
-        "length": 898637
-      }
-    },
-    "version": 6
+    "targets": {},
+    "version": 7
   }
 }
