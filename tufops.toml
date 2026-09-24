@@ -49,9 +49,23 @@ threshold = 1
 expires_days = 365
 signing_days = 60
 
-[roles.channels]
+[roles.channels-stable]
 keys = ["online"]
-paths = ["channels/"]
+paths = ["channels/stable/"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[roles.channels-beta]
+keys = ["online"]
+paths = ["channels/beta/"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[roles.channels-nightly]
+keys = ["online"]
+paths = ["channels/nightly/"]
 threshold = 1
 expires_days = 365
 signing_days = 60

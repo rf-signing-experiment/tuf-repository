@@ -1,10 +1,5 @@
 {
-  "signatures": [
-    {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3046022100a331f7c4af69fa56ed5c2f5088fe2ec24c09bc8916d1f0fb5cdc1ad0ebed390b022100e28d5744aeb6d12655b485b3fe0113f837a464d7a5beda319ec98689c660e7bf"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "delegations": {
@@ -29,9 +24,31 @@
           "keyids": [
             "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0"
           ],
-          "name": "channels",
+          "name": "channels-beta",
           "paths": [
-            "channels/"
+            "channels/beta/"
+          ],
+          "terminating": true,
+          "threshold": 1
+        },
+        {
+          "keyids": [
+            "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0"
+          ],
+          "name": "channels-nightly",
+          "paths": [
+            "channels/nightly/"
+          ],
+          "terminating": true,
+          "threshold": 1
+        },
+        {
+          "keyids": [
+            "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0"
+          ],
+          "name": "channels-stable",
+          "paths": [
+            "channels/stable/"
           ],
           "terminating": true,
           "threshold": 1
@@ -49,9 +66,28 @@
         }
       ]
     },
-    "expires": "2027-09-24T17:16:11Z",
+    "expires": "2027-09-24T22:42:44Z",
     "spec_version": "1.0.0",
-    "targets": {},
-    "version": 4
+    "targets": {
+      "channels/current-beta.toml": {
+        "hashes": {
+          "sha256": "f354aeb103b726b016d19d7f70d3c6419dfeb39a5ed7b29d6f63eb959713c34e"
+        },
+        "length": 941133
+      },
+      "channels/current-nightly.toml": {
+        "hashes": {
+          "sha256": "7f26ba9be2b4ee4ce3ab893a711bac3df2faedfb12ea4c1e9834d1b5ceac1504"
+        },
+        "length": 923466
+      },
+      "channels/current-stable.toml": {
+        "hashes": {
+          "sha256": "a7c8774a5fd8441c997d94c029776cbc5eb111e9d72ab5d256fa69866644347e"
+        },
+        "length": 898637
+      }
+    },
+    "version": 5
   }
 }
