@@ -1,16 +1,10 @@
 {
-  "signatures": [
-    {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "30450220134dbf1da859da8fcef469d25818bb5c016b466fada559b2167d78b2aece595e022100f07275b440b93728a7dd0a4a5780954890423bb82cdffe74e9e9478d93970910"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
-    "expires": "2027-09-24T03:48:05Z",
+    "expires": "2027-09-24T03:51:39Z",
     "spec_version": "1.0.0",
     "targets": {},
-    "version": 1,
-    "x-tufops-expires-days": 365
+    "version": 2
   }
 }
