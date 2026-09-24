@@ -69,3 +69,10 @@ paths = ["channels/nightly/"]
 threshold = 1
 expires_days = 365
 signing_days = 60
+
+[roles.channels-current]
+keys = ["online"]
+paths = ["channels/current/"]
+threshold = 1
+expires_days = 365
+signing_days = 60
