@@ -2,13 +2,13 @@
   "signatures": [
     {
       "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "30440220709b569c376e8fef2297987cc08be532b12340ff2a20f3e234b359621252e6120220227094bd48efa058e8bb67027cf3f87a507aeaec299f0fec9465d31cfb00d853"
+      "sig": "3044022067545a1609356cdc54089900aa5fbfe21454ed4ff5fe20f57824e15e605202e00220321abfcfc64b923a280934f60605abfd42f016694a1c173dd15a5bf1809014c5"
     }
   ],
   "signed": {
     "_type": "root",
     "consistent_snapshot": true,
-    "expires": "2027-09-24T02:11:11Z",
+    "expires": "2026-10-01T03:48:05Z",
     "keys": {
       "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0": {
         "keytype": "ecdsa",
@@ -52,6 +52,7 @@
       }
     },
     "spec_version": "1.0.0",
-    "version": 1
+    "version": 2,
+    "x-tufops-expires-days": 7
   }
 }
