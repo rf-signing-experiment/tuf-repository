@@ -48,3 +48,10 @@ paths = ["rustup/"]
 threshold = 1
 expires_days = 365
 signing_days = 60
+
+[roles.channels]
+keys = ["online"]
+paths = ["channels/"]
+threshold = 1
+expires_days = 365
+signing_days = 60
