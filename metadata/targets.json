@@ -2,14 +2,39 @@
   "signatures": [
     {
       "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3045022004ba8264951797841a961e3648da3224366cfc7056967b59857df5f912c095fa022100bf5ba9cde8326062762ad420a3dfd9b73360cd679c5c46a24d8868b7b22b97bd"
+      "sig": "304602210088542ff4b4e5721714eca78b521e6a6f5435cb00aee11100e2fc0af7d34ef02f022100ef80e44b3e91972a388d42a707c05535f64f903ea664892d95fe1b6894c6c743"
     }
   ],
   "signed": {
     "_type": "targets",
-    "expires": "2027-09-24T02:11:11Z",
+    "delegations": {
+      "keys": {
+        "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9": {
+          "keytype": "ecdsa",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR\nkyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==\n-----END PUBLIC KEY-----\n"
+          },
+          "scheme": "ecdsa-sha2-nistp256"
+        }
+      },
+      "roles": [
+        {
+          "keyids": [
+            "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9"
+          ],
+          "name": "rustup",
+          "paths": [
+            "rustup/"
+          ],
+          "terminating": true,
+          "threshold": 1
+        }
+      ]
+    },
+    "expires": "2027-09-24T03:48:05Z",
     "spec_version": "1.0.0",
     "targets": {},
-    "version": 1
+    "version": 2,
+    "x-tufops-expires-days": 365
   }
 }
