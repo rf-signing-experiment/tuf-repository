@@ -9,6 +9,24 @@ kyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==
 -----END PUBLIC KEY-----
 """
 
+[keys.arlosi-backup]
+owner = "@arlosi"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsB2Hl7venpo7oeAvhyQcEVtl+MzV
+WaCZuuQ2tEVoFFbyylGktHllD9hj00iz6kHjEtVzaixsZG1YLLuDk6KIxw==
+-----END PUBLIC KEY-----
+"""
+
+[keys.walterhpearce]
+owner = "@walterhpearce"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVwEh3PXPYjpgc40fwl3YqGjWxcKn
+fMrJuGb7da6slZ0P28aJ2PvfO7escfLwxNnt8pDp2NX/dGBnIgLzpEP68w==
+-----END PUBLIC KEY-----
+"""
+
 [keys.online]
 online = "gcpkms:projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/online/cryptoKeyVersions/1"
 public_key = """
