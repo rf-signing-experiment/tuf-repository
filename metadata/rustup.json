@@ -1,13 +1,8 @@
 {
-  "signatures": [
-    {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3045022100decf34a5088f7cdd29db6680b28179a461849f47f27adbb56455d44f10f0562502204d67bfa30cd0e3804812225ddebffc57335b42eac4db155a799ba4ecf9e608b6"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
-    "expires": "2027-09-24T14:21:03Z",
+    "expires": "2027-09-25T19:58:50Z",
     "spec_version": "1.0.0",
     "targets": {
       "rustup/manual.md": {
@@ -17,6 +12,6 @@
         "length": 1052
       }
     },
-    "version": 3
+    "version": 4
   }
 }
