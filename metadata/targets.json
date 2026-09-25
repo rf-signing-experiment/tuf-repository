@@ -1,10 +1,5 @@
 {
-  "signatures": [
-    {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3044022016d37ed63b31114b7206dd3e190c2f3bb088326fa8a45f0e658b9137b13da7fb0220624293549a0c1a1cbc0d259284ff7d4247e21fa8ee4556c11e09c556d9e7881f"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "delegations": {
@@ -13,6 +8,13 @@
           "keytype": "ecdsa",
           "keyval": {
             "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEurRtI7rt0SeiUzZYtRIazNqugoF1\nhd46conktN9SA/x/GioyP9MVC1Rf/lK2VFq1mQo0uXL452CDxz+4iVB0EA==\n-----END PUBLIC KEY-----\n"
+          },
+          "scheme": "ecdsa-sha2-nistp256"
+        },
+        "6fc7906089f78471930de7c0df2535387637c4dfb20d5952e66d36e7cfa7acec": {
+          "keytype": "ecdsa",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsB2Hl7venpo7oeAvhyQcEVtl+MzV\nWaCZuuQ2tEVoFFbyylGktHllD9hj00iz6kHjEtVzaixsZG1YLLuDk6KIxw==\n-----END PUBLIC KEY-----\n"
           },
           "scheme": "ecdsa-sha2-nistp256"
         },
@@ -71,6 +73,7 @@
         },
         {
           "keyids": [
+            "6fc7906089f78471930de7c0df2535387637c4dfb20d5952e66d36e7cfa7acec",
             "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9"
           ],
           "name": "rustup",
@@ -78,13 +81,13 @@
             "rustup/"
           ],
           "terminating": true,
-          "threshold": 1
+          "threshold": 2
         }
       ]
     },
-    "expires": "2027-09-24T23:30:20Z",
+    "expires": "2027-09-25T19:58:50Z",
     "spec_version": "1.0.0",
     "targets": {},
-    "version": 7
+    "version": 8
   }
 }
