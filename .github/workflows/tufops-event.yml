@@ -1,0 +1,12 @@
+name: tufops-event
+on:
+  push:
+    branches: ["sign/**"]
+
+permissions: {}
+
+jobs:
+  pushed:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "true"
