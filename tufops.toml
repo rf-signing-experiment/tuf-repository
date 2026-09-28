@@ -61,7 +61,7 @@ expires_days = 2
 signing_days = 1
 
 [roles.rustup]
-keys = ["arlosi", "arlosi-backup"]
+keys = ["arlosi", "arlosi-backup", "walterhpearce"]
 paths = ["rustup/"]
 threshold = 2
 expires_days = 365
