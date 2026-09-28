@@ -2,31 +2,14 @@
   "signatures": [
     {
       "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3046022100da61be07152c45df4f9e11c4c55506d8af03b7c59b8c4e98fdabfbc8aea35365022100d1fcfd745da9000a757242bfa47a2a3e78d1f2169a96e0061e46dfb40ef94d70"
-    },
-    {
-      "keyid": "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523",
-      "sig": "3046022100e50098b372e65df1d337e08a0e0b3e3409195951635b7349b11d5ae1a6d59ef0022100aa9c9713a6934490df573ec86776b4fca67e42fd1de74b9088e10b703e9e5dcb"
+      "sig": "304502203a39b18432d533c6ec25539d62dcc00296211c0cdc292e7b9b6ba040cc633dbe022100a7c5a95ee31ad72c6f2c520cfa5978d8464f4c9764e0c99ef46861081125737e"
     }
   ],
   "signed": {
     "_type": "targets",
-    "expires": "2027-09-28T17:47:34Z",
+    "expires": "2027-09-28T20:57:04Z",
     "spec_version": "1.0.0",
-    "targets": {
-      "rustup/manual.md": {
-        "hashes": {
-          "sha256": "9190e25d04fd8554a8aa54ac82fb722507a106de3a007a0d96dc46589d96ef3e"
-        },
-        "length": 1052
-      },
-      "rustup/test": {
-        "hashes": {
-          "sha256": "9a30a503b2862c51c3c5acd7fbce2f1f784cf4658ccf8e87d5023a90c21c0714"
-        },
-        "length": 9
-      }
-    },
-    "version": 5
+    "targets": {},
+    "version": 6
   }
 }
