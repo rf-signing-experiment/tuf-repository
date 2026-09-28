@@ -1,10 +1,5 @@
 {
-  "signatures": [
-    {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3045022100bdc268ea825371c5be73932638654b35d1bc4ebc0812b9c610be8444cd25eadb022017c1d32c3c5632d1ea7332cb114ce204acb91ee61c4b643712df00a948f86adc"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "delegations": {
@@ -16,24 +11,10 @@
           },
           "scheme": "ecdsa-sha2-nistp256"
         },
-        "6fc7906089f78471930de7c0df2535387637c4dfb20d5952e66d36e7cfa7acec": {
+        "741a979c213b7ef994a97912dd6f3874a99e5fb8061f4e90980e65823bf34b83": {
           "keytype": "ecdsa",
           "keyval": {
-            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsB2Hl7venpo7oeAvhyQcEVtl+MzV\nWaCZuuQ2tEVoFFbyylGktHllD9hj00iz6kHjEtVzaixsZG1YLLuDk6KIxw==\n-----END PUBLIC KEY-----\n"
-          },
-          "scheme": "ecdsa-sha2-nistp256"
-        },
-        "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9": {
-          "keytype": "ecdsa",
-          "keyval": {
-            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR\nkyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==\n-----END PUBLIC KEY-----\n"
-          },
-          "scheme": "ecdsa-sha2-nistp256"
-        },
-        "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523": {
-          "keytype": "ecdsa",
-          "keyval": {
-            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkrCsG41NDuwkD1yh0cMFOUiZ8R74\nXcsGt6yK+qoEnTdtZGXhW0afTvidS33Lb+LqY7RIawu88MmewGNKPDh0TQ==\n-----END PUBLIC KEY-----\n"
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/QnMHJt7bEBrcsYITistAG2VWk8g\nreprAWkE7ymNXtiVE33+FIWUDJY5gMx2Pxl7Qg1ZWmSiEdinXUGG9P8QMQ==\n-----END PUBLIC KEY-----\n"
           },
           "scheme": "ecdsa-sha2-nistp256"
         }
@@ -85,22 +66,20 @@
         },
         {
           "keyids": [
-            "6fc7906089f78471930de7c0df2535387637c4dfb20d5952e66d36e7cfa7acec",
-            "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-            "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523"
+            "741a979c213b7ef994a97912dd6f3874a99e5fb8061f4e90980e65823bf34b83"
           ],
           "name": "rustup",
           "paths": [
             "rustup/"
           ],
           "terminating": true,
-          "threshold": 2
+          "threshold": 1
         }
       ]
     },
-    "expires": "2027-09-28T17:37:02Z",
+    "expires": "2027-09-28T21:06:26Z",
     "spec_version": "1.0.0",
     "targets": {},
-    "version": 9
+    "version": 10
   }
 }

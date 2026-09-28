@@ -1,17 +1,13 @@
 {
   "signatures": [
     {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3046022100da61be07152c45df4f9e11c4c55506d8af03b7c59b8c4e98fdabfbc8aea35365022100d1fcfd745da9000a757242bfa47a2a3e78d1f2169a96e0061e46dfb40ef94d70"
-    },
-    {
-      "keyid": "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523",
-      "sig": "3046022100e50098b372e65df1d337e08a0e0b3e3409195951635b7349b11d5ae1a6d59ef0022100aa9c9713a6934490df573ec86776b4fca67e42fd1de74b9088e10b703e9e5dcb"
+      "keyid": "741a979c213b7ef994a97912dd6f3874a99e5fb8061f4e90980e65823bf34b83",
+      "sig": "304502203d109973ace823583ec88a9ffe7f3e21a5d8dd0652b71fd6a3f8de90d47486780221009360b2bfdd93d235dc0b615d530acedf05f042cc0187fd1c49ed570fb724d45d"
     }
   ],
   "signed": {
     "_type": "targets",
-    "expires": "2027-09-28T17:47:34Z",
+    "expires": "2027-09-28T21:06:26Z",
     "spec_version": "1.0.0",
     "targets": {
       "rustup/manual.md": {
@@ -27,6 +23,6 @@
         "length": 9
       }
     },
-    "version": 5
+    "version": 6
   }
 }
