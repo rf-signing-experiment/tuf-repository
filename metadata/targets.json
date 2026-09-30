@@ -2,7 +2,7 @@
   "signatures": [
     {
       "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "304402205f21f4dcc2ae13e0a72f12b6760da00ab85b3a93e057892bca66fc05b89130a7022045153a502ffc6567517c1023b8054b5c0060d89b89a4850759d11a07d23a690a"
+      "sig": "304502207761eca68373976aa15b5fb4ccb9deebb6083d3307fae161048cd608c391ff54022100bf1fb7f6d87418381203daa66c145dfcd05980050b148f1ad409f80b870e00b6"
     }
   ],
   "signed": {
@@ -51,9 +51,31 @@
           "keyids": [
             "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0"
           ],
-          "name": "channels-nightly",
+          "name": "channels-nightly-old",
           "paths": [
-            "channels/nightly/"
+            "channels/nightly/2016/",
+            "channels/nightly/2017/",
+            "channels/nightly/2018/",
+            "channels/nightly/2019/",
+            "channels/nightly/2020/",
+            "channels/nightly/2021/",
+            "channels/nightly/2022/",
+            "channels/nightly/2023/",
+            "channels/nightly/2024/",
+            "channels/nightly/2025/"
+          ],
+          "terminating": true,
+          "threshold": 1
+        },
+        {
+          "keyids": [
+            "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0"
+          ],
+          "name": "channels-nightly-recent",
+          "paths": [
+            "channels/nightly/2026/",
+            "channels/nightly/2027/",
+            "channels/nightly/2028/"
           ],
           "terminating": true,
           "threshold": 1
@@ -82,9 +104,9 @@
         }
       ]
     },
-    "expires": "2027-09-28T21:06:26Z",
+    "expires": "2027-09-30T19:38:50Z",
     "spec_version": "1.0.0",
     "targets": {},
-    "version": 10
+    "version": 11
   }
 }
