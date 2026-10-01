@@ -2,12 +2,12 @@
   "signatures": [
     {
       "keyid": "741a979c213b7ef994a97912dd6f3874a99e5fb8061f4e90980e65823bf34b83",
-      "sig": "3045022100928fb38a2494e93b88d604f7d0fa40bef6349024417f2429d94b8c9fd6c0addf0220119465a8808f1c0265aa0a5cef190b0356f4ebaea19ec0afad0275a1616a0c26"
+      "sig": "30460221009d633a532488525e48f63cfe0043c9be9cea0547fb29a2afde9480b07bc3b7e502210092f65aedfbc0f8f194c1bd2daeab8c3c35545860e2a6123113dd4608018938a2"
     }
   ],
   "signed": {
     "_type": "targets",
-    "expires": "2027-10-01T14:23:53Z",
+    "expires": "2027-10-01T14:39:15Z",
     "spec_version": "1.0.0",
     "targets": {
       "rustup/dist/aarch64-apple-darwin/rustup-init": {
@@ -504,9 +504,9 @@
       },
       "rustup/release-stable.toml": {
         "hashes": {
-          "sha256": "619af6e2496398cb891a41728b72d3849302086ba3f886517a5a4b5ba7cd56ab"
+          "sha256": "49372ff6b5264c5ea67d8650acc899290a669cc956dd75e268d3211c527f3967"
         },
-        "length": 53
+        "length": 39
       },
       "rustup/rustup-init.sh": {
         "hashes": {
@@ -521,6 +521,6 @@
         "length": 5105
       }
     },
-    "version": 10
+    "version": 11
   }
 }
