@@ -2,12 +2,12 @@
   "signatures": [
     {
       "keyid": "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0",
-      "sig": "30440220281117edf25000f977f518fe9e3f8559593c44ecac57fde4195cc66dbea0f0d902205e80c5199bf001e065e16b8af75fd207eed93c27fcbbb6e66cb5a4e5ec055796"
+      "sig": "3045022018b878ac5a58498c4d8f744ebd69a5ed2e131b1c73dde7c4c1275f94b3c0d5c1022100a8cba9b4047688cf898ec7a69ed8e174163a96db33852079e269fc13cc7fbeb9"
     }
   ],
   "signed": {
     "_type": "snapshot",
-    "expires": "2027-10-01T14:23:01Z",
+    "expires": "2027-10-01T14:24:19Z",
     "meta": {
       "channels-beta.json": {
         "version": 3
@@ -28,13 +28,13 @@
         "version": 1
       },
       "rustup.json": {
-        "version": 9
+        "version": 10
       },
       "targets.json": {
         "version": 12
       }
     },
     "spec_version": "1.0.0",
-    "version": 25
+    "version": 26
   }
 }
