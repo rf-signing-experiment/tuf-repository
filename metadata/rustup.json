@@ -2,12 +2,12 @@
   "signatures": [
     {
       "keyid": "741a979c213b7ef994a97912dd6f3874a99e5fb8061f4e90980e65823bf34b83",
-      "sig": "30440220240f49324d69f753863a783ff2279db2406146e04cea2f6823a01814fcca1dc702201d94ccf846f80456d0f1c48f7ce967e0edb65920d84b748ab7f5db59ce2f5f4d"
+      "sig": "3044022038ffdb3657c57209f7115070f82822e3027432a4a3cab2d77de4ef5acf0928be02206ecbf211d56ab52bd3d960b22cd510e5e0a0396b65dfd041dcc3bc03322a828e"
     }
   ],
   "signed": {
     "_type": "targets",
-    "expires": "2027-10-01T14:58:28Z",
+    "expires": "2027-10-01T15:31:40Z",
     "spec_version": "1.0.0",
     "targets": {
       "rustup/dist/aarch64-apple-darwin/rustup-init": {
@@ -474,9 +474,9 @@
       },
       "rustup/dist/x86_64-unknown-linux-gnu/rustup-init": {
         "hashes": {
-          "sha256": "dda7234360b7f578ca8b0ddcb80145646fa61a67c1720a5abc7051b35c9fcb71"
+          "sha256": "12be42ccaaa48533ffae5464f9960703f2ea7fe1d91b3705bb8b860ef477cbf2"
         },
-        "length": 21113232
+        "length": 16058912
       },
       "rustup/dist/x86_64-unknown-linux-gnu/rustup-setup": {
         "hashes": {
@@ -527,6 +527,6 @@
         "length": 5105
       }
     },
-    "version": 17
+    "version": 18
   }
 }
