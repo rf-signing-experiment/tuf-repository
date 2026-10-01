@@ -1,19 +1,17 @@
 {
-  "signatures": [
-    {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "304402206a32c28e43421c21573c1bb10df894bc7e5efa2e0e1d43d17d9d5d4c2ab5475102203e777fb6525b03fa2944c659184dd76ee68b58eb88c232d48307484cd88618b4"
-    },
-    {
-      "keyid": "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523",
-      "sig": "3046022100c497cdc3226bbe07b29b65f47540abb7897fcd3b90bc6680c14c01becd2ccb81022100f6c63054cb48968c1423cd6cf9f3ad1ad08bd0804b920c339ecff7abf2afd8e4"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
-    "expires": "2027-10-01T03:54:27Z",
+    "expires": "2027-10-01T14:37:54Z",
     "spec_version": "1.0.0",
-    "targets": {},
-    "version": 1
+    "targets": {
+      "crates/1.pem": {
+        "hashes": {
+          "sha256": "21685e8ae23c1c417c2ae109aaa7abf26efe0d3927246e1077e6782d7a9f96b7"
+        },
+        "length": 178
+      }
+    },
+    "version": 2
   }
 }
