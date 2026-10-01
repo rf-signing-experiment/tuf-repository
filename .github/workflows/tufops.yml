@@ -18,7 +18,7 @@ jobs:
   tufops:
     runs-on: ubuntu-latest
     steps:
-      - uses: rf-signing-experiment/tufops@d782c06573f7792d6c026e8af9453589b2e41457 # v0.4.0
+      - uses: rf-signing-experiment/tufops@f987d4656d8ec86ca3879afd78b3f846c103fb6c # v0.5.0
         with:
           app-client-id: ${{ vars.TUFOPS_APP_CLIENT_ID }}
           app-private-key: ${{ secrets.TUFOPS_APP_PRIVATE_KEY }}
