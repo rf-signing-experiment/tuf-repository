@@ -110,3 +110,10 @@ paths = ["channels/current/"]
 threshold = 1
 expires_days = 365
 signing_days = 60
+
+[roles.crates]
+keys = ["arlosi", "walterhpearce"]
+paths = ["crates/"]
+threshold = 2
+expires_days = 365
+signing_days = 7

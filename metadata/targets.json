@@ -2,7 +2,7 @@
   "signatures": [
     {
       "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "304502207761eca68373976aa15b5fb4ccb9deebb6083d3307fae161048cd608c391ff54022100bf1fb7f6d87418381203daa66c145dfcd05980050b148f1ad409f80b870e00b6"
+      "sig": "30450220179d4b6570e25ea3fb369c1994422de6f57cabc06bfae81a0cf4e4b78efbd167022100ef53b9852e6788daaa9ce7e860b59643d0062917ad2ce1604b268dd7af733b9d"
     }
   ],
   "signed": {
@@ -20,6 +20,20 @@
           "keytype": "ecdsa",
           "keyval": {
             "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/QnMHJt7bEBrcsYITistAG2VWk8g\nreprAWkE7ymNXtiVE33+FIWUDJY5gMx2Pxl7Qg1ZWmSiEdinXUGG9P8QMQ==\n-----END PUBLIC KEY-----\n"
+          },
+          "scheme": "ecdsa-sha2-nistp256"
+        },
+        "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9": {
+          "keytype": "ecdsa",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR\nkyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==\n-----END PUBLIC KEY-----\n"
+          },
+          "scheme": "ecdsa-sha2-nistp256"
+        },
+        "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523": {
+          "keytype": "ecdsa",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkrCsG41NDuwkD1yh0cMFOUiZ8R74\nXcsGt6yK+qoEnTdtZGXhW0afTvidS33Lb+LqY7RIawu88MmewGNKPDh0TQ==\n-----END PUBLIC KEY-----\n"
           },
           "scheme": "ecdsa-sha2-nistp256"
         }
@@ -93,6 +107,18 @@
         },
         {
           "keyids": [
+            "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
+            "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523"
+          ],
+          "name": "crates",
+          "paths": [
+            "crates/"
+          ],
+          "terminating": true,
+          "threshold": 2
+        },
+        {
+          "keyids": [
             "741a979c213b7ef994a97912dd6f3874a99e5fb8061f4e90980e65823bf34b83"
           ],
           "name": "rustup",
@@ -104,9 +130,9 @@
         }
       ]
     },
-    "expires": "2027-09-30T19:38:50Z",
+    "expires": "2027-10-01T03:54:27Z",
     "spec_version": "1.0.0",
     "targets": {},
-    "version": 11
+    "version": 12
   }
 }
