@@ -2,24 +2,54 @@
   "signatures": [
     {
       "keyid": "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0",
-      "sig": "3045022100c750b37028faad170769b5bd2bc7c81f57061dfd623392625f0025b0ea7f094a02205ebf709acbb8ee5b1cb8238c677494b2047f8056887dc8eb9f155ee3305ab1c4"
+      "sig": "30450220261ac6f986e2d9421bfc999c5009797a39a6af02da2f5ad5bcb6e4050c280cf0022100f4d85b6aabae0cde6e297f82ee37a2bd5fac61a3d5cce63a5e4322478f1e09af"
     }
   ],
   "signed": {
     "_type": "snapshot",
-    "expires": "2027-10-02T18:50:35Z",
+    "expires": "2027-10-02T19:09:11Z",
     "meta": {
+      "channels-archive-2016.json": {
+        "version": 1
+      },
+      "channels-archive-2017.json": {
+        "version": 1
+      },
+      "channels-archive-2018.json": {
+        "version": 1
+      },
+      "channels-archive-2019.json": {
+        "version": 1
+      },
+      "channels-archive-2020.json": {
+        "version": 1
+      },
+      "channels-archive-2021.json": {
+        "version": 1
+      },
+      "channels-archive-2022.json": {
+        "version": 1
+      },
+      "channels-archive-2023.json": {
+        "version": 1
+      },
+      "channels-archive-2024.json": {
+        "version": 1
+      },
+      "channels-archive-2025.json": {
+        "version": 1
+      },
+      "channels-archive-2026.json": {
+        "version": 1
+      },
+      "channels-archive-2027.json": {
+        "version": 1
+      },
       "channels-beta.json": {
         "version": 4
       },
       "channels-current.json": {
         "version": 6
-      },
-      "channels-nightly-old.json": {
-        "version": 2
-      },
-      "channels-nightly-recent.json": {
-        "version": 2
       },
       "channels-stable.json": {
         "version": 5
@@ -31,10 +61,10 @@
         "version": 19
       },
       "targets.json": {
-        "version": 13
+        "version": 14
       }
     },
     "spec_version": "1.0.0",
-    "version": 36
+    "version": 37
   }
 }
