@@ -1,26 +1,15 @@
 {
   "signatures": [
     {
-      "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3045022100a2235c3ec55e7d253c028868db50688e9f9dd05507997b29db2aade1783e6a0602205159ad4c4d9c058e51436bd558608462ebb863f8275995b60e0cc6bb28d543c2"
-    },
-    {
       "keyid": "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523",
-      "sig": "3044022010978595aafd5ffb9698299b55e1300061b10ded082e10bab5ad6208d98c2fe90220256c2a48bad77e0d7cb1e37b5bc28841037d570b92c5de74622ba0bbaf371935"
+      "sig": "30460221009e51e7417a052b71d13641a3040c18b14cf7e8b8f378145e60aabd98195c50a1022100bf2414031eebe66879b338aa9ce8d3ab068998e7846933d2ecc020822feea534"
     }
   ],
   "signed": {
     "_type": "targets",
-    "expires": "2027-10-01T15:10:35Z",
+    "expires": "2027-10-02T18:43:49Z",
     "spec_version": "1.0.0",
-    "targets": {
-      "crates/1.pem": {
-        "hashes": {
-          "sha256": "21685e8ae23c1c417c2ae109aaa7abf26efe0d3927246e1077e6782d7a9f96b7"
-        },
-        "length": 178
-      }
-    },
-    "version": 2
+    "targets": {},
+    "version": 3
   }
 }
