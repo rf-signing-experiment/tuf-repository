@@ -90,16 +90,16 @@ threshold = 1
 expires_days = 365
 signing_days = 60
 
-[roles.channels-nightly-old]
+[roles.channels-archive]
 keys = ["online"]
-paths = ["channels/nightly/2016/", "channels/nightly/2017/", "channels/nightly/2018/", "channels/nightly/2019/", "channels/nightly/2020/", "channels/nightly/2021/", "channels/nightly/2022/", "channels/nightly/2023/", "channels/nightly/2024/", "channels/nightly/2025/"]
+paths = ["channels/archive/2016/", "channels/archive/2017/", "channels/archive/2018/", "channels/archive/2019/", "channels/archive/2020/", "channels/archive/2021/", "channels/archive/2022/", "channels/archive/2023/", "channels/archive/2024/", "channels/archive/2025/"]
 threshold = 1
 expires_days = 365
 signing_days = 60
 
-[roles.channels-nightly-recent]
+[roles.channels-archive-recent]
 keys = ["online"]
-paths = ["channels/nightly/2026/", "channels/nightly/2027/", "channels/nightly/2028/"]
+paths = ["channels/archive/2026/", "channels/archive/2027/", "channels/archive/2028/"]
 threshold = 1
 expires_days = 365
 signing_days = 60
