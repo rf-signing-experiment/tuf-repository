@@ -2,7 +2,7 @@
   "signatures": [
     {
       "keyid": "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
-      "sig": "3045022061fb622b1a29f40ae1589fee121683f136e3657996d86818fa2ced4e80d45dd70221008e2280e84017a2364786ce46e7321cd1c53bd18bed61321c1f5070557acf3b83"
+      "sig": "30450220558e193c2633a2d7ee96bc4a3cb6b545f7d2da44ca542404c22ed00097884754022100823b30fda7312f5cb2a664069318a5f13999d17d69f8bf19854aeb6d00a0e457"
     }
   ],
   "signed": {
@@ -206,6 +206,17 @@
         },
         {
           "keyids": [
+            "741a979c213b7ef994a97912dd6f3874a99e5fb8061f4e90980e65823bf34b83"
+          ],
+          "name": "rustup-archive",
+          "paths": [
+            "rustup/archive/"
+          ],
+          "terminating": true,
+          "threshold": 1
+        },
+        {
+          "keyids": [
             "bd828d85ebaa1d4a1e59773e5056d384b87f98db8604b77f76af056d36b8e6f9",
             "f9d5de9c991716cb967d40ea12a94a098139b157a008849aaf78401dd1c97523"
           ],
@@ -229,7 +240,7 @@
         }
       ]
     },
-    "expires": "2027-10-02T19:06:19Z",
+    "expires": "2027-10-02T21:03:28Z",
     "spec_version": "1.0.0",
     "targets": {
       "manifests.txt": {
@@ -239,6 +250,6 @@
         "length": 374752
       }
     },
-    "version": 14
+    "version": 15
   }
 }
