@@ -2,39 +2,39 @@
   "signatures": [
     {
       "keyid": "113221a83e8eaab7aa4f16d8a8c769d94a76c7f9f007dad0a3fcdfc3871c2af0",
-      "sig": "304502201052be622a1cb3a05c9d90780ee3d362061b0450e8636cfe44925fc54fa9704a022100bab7ad3c6f557a1abfed21ec5bc545c0d746a74364a90ab3a37d7ad9783b724e"
+      "sig": "3045022100c750b37028faad170769b5bd2bc7c81f57061dfd623392625f0025b0ea7f094a02205ebf709acbb8ee5b1cb8238c677494b2047f8056887dc8eb9f155ee3305ab1c4"
     }
   ],
   "signed": {
     "_type": "snapshot",
-    "expires": "2027-10-01T15:32:15Z",
+    "expires": "2027-10-02T18:50:35Z",
     "meta": {
       "channels-beta.json": {
-        "version": 3
+        "version": 4
       },
       "channels-current.json": {
         "version": 6
       },
       "channels-nightly-old.json": {
-        "version": 1
-      },
-      "channels-nightly-recent.json": {
-        "version": 1
-      },
-      "channels-stable.json": {
-        "version": 4
-      },
-      "crates.json": {
         "version": 2
       },
+      "channels-nightly-recent.json": {
+        "version": 2
+      },
+      "channels-stable.json": {
+        "version": 5
+      },
+      "crates.json": {
+        "version": 3
+      },
       "rustup.json": {
-        "version": 18
+        "version": 19
       },
       "targets.json": {
-        "version": 12
+        "version": 13
       }
     },
     "spec_version": "1.0.0",
-    "version": 35
+    "version": 36
   }
 }
