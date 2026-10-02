@@ -76,6 +76,13 @@ threshold = 1
 expires_days = 365
 signing_days = 60
 
+[roles.rustup-archive]
+keys = ["rustup"]
+paths = ["rustup/archive/"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
 [roles.channels-stable]
 keys = ["online"]
 paths = ["channels/stable/"]
