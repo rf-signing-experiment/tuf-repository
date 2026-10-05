@@ -1,0 +1,215 @@
+storage = "gs://tufops"          # or gs://bucket/prefix
+
+[keys.arlosi]
+owner = "@arlosi"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR
+kyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==
+-----END PUBLIC KEY-----
+"""
+
+[keys.arlosi-backup]
+owner = "@arlosi"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsB2Hl7venpo7oeAvhyQcEVtl+MzV
+WaCZuuQ2tEVoFFbyylGktHllD9hj00iz6kHjEtVzaixsZG1YLLuDk6KIxw==
+-----END PUBLIC KEY-----
+"""
+
+[keys.walterhpearce]
+owner = "@walterhpearce"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkrCsG41NDuwkD1yh0cMFOUiZ8R74
+XcsGt6yK+qoEnTdtZGXhW0afTvidS33Lb+LqY7RIawu88MmewGNKPDh0TQ==
+-----END PUBLIC KEY-----
+"""
+
+[keys.online]
+online = "gcpkms:projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/online/cryptoKeyVersions/1"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEurRtI7rt0SeiUzZYtRIazNqugoF1
+hd46conktN9SA/x/GioyP9MVC1Rf/lK2VFq1mQo0uXL452CDxz+4iVB0EA==
+-----END PUBLIC KEY-----
+"""
+
+[keys.rustup]
+online = "gcpkms:projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/rustup/cryptoKeyVersions/1"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/QnMHJt7bEBrcsYITistAG2VWk8g
+reprAWkE7ymNXtiVE33+FIWUDJY5gMx2Pxl7Qg1ZWmSiEdinXUGG9P8QMQ==
+-----END PUBLIC KEY-----
+"""
+
+[roles.root]
+keys = ["arlosi"]
+threshold = 1
+expires_days = 7
+signing_days = 3
+
+[roles.targets]
+keys = ["arlosi"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[roles.snapshot]
+keys = ["online"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[roles.timestamp]
+keys = ["online"]
+threshold = 1
+expires_days = 2
+signing_days = 1
+
+
+[[delegations]]
+name = "rustup"
+keys = ["rustup"]
+paths = ["rustup/*", "rustup/dist/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "rustup-archive"
+keys = ["rustup"]
+paths = ["rustup/archive/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-stable"
+keys = ["online"]
+paths = ["channels/stable/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-beta"
+keys = ["online"]
+paths = ["channels/beta/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-current"
+keys = ["online"]
+paths = ["channels/current/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "crates"
+keys = ["arlosi", "walterhpearce"]
+paths = ["crates/*"]
+threshold = 2
+expires_days = 365
+signing_days = 7
+
+[[delegations]]
+name = "channels-archive-2016"
+keys = ["online"]
+paths = ["channels/archive/2016/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2017"
+keys = ["online"]
+paths = ["channels/archive/2017/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2018"
+keys = ["online"]
+paths = ["channels/archive/2018/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2019"
+keys = ["online"]
+paths = ["channels/archive/2019/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2020"
+keys = ["online"]
+paths = ["channels/archive/2020/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2021"
+keys = ["online"]
+paths = ["channels/archive/2021/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2022"
+keys = ["online"]
+paths = ["channels/archive/2022/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2023"
+keys = ["online"]
+paths = ["channels/archive/2023/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2024"
+keys = ["online"]
+paths = ["channels/archive/2024/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2025"
+keys = ["online"]
+paths = ["channels/archive/2025/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2026"
+keys = ["online"]
+paths = ["channels/archive/2026/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
+
+[[delegations]]
+name = "channels-archive-2027"
+keys = ["online"]
+paths = ["channels/archive/2027/*/*/*"]
+threshold = 1
+expires_days = 365
+signing_days = 60
