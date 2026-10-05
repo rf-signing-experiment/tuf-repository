@@ -73,7 +73,7 @@ signing_days = 1
 [[delegations]]
 name = "rustup"
 keys = ["rustup"]
-paths = ["rustup/*", "rustup/dist/*"]
+paths = ["rustup/*", "rustup/dist/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -81,7 +81,7 @@ signing_days = 60
 [[delegations]]
 name = "rustup-archive"
 keys = ["rustup"]
-paths = ["rustup/archive/*/*"]
+paths = ["rustup/archive/*/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -121,7 +121,7 @@ signing_days = 7
 [[delegations]]
 name = "channels-archive-2016"
 keys = ["online"]
-paths = ["channels/archive/2016/*/*/*"]
+paths = ["channels/archive/2016/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -129,7 +129,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2017"
 keys = ["online"]
-paths = ["channels/archive/2017/*/*/*"]
+paths = ["channels/archive/2017/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -137,7 +137,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2018"
 keys = ["online"]
-paths = ["channels/archive/2018/*/*/*"]
+paths = ["channels/archive/2018/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -145,7 +145,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2019"
 keys = ["online"]
-paths = ["channels/archive/2019/*/*/*"]
+paths = ["channels/archive/2019/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -153,7 +153,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2020"
 keys = ["online"]
-paths = ["channels/archive/2020/*/*/*"]
+paths = ["channels/archive/2020/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -161,7 +161,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2021"
 keys = ["online"]
-paths = ["channels/archive/2021/*/*/*"]
+paths = ["channels/archive/2021/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -169,7 +169,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2022"
 keys = ["online"]
-paths = ["channels/archive/2022/*/*/*"]
+paths = ["channels/archive/2022/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -177,7 +177,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2023"
 keys = ["online"]
-paths = ["channels/archive/2023/*/*/*"]
+paths = ["channels/archive/2023/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -185,7 +185,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2024"
 keys = ["online"]
-paths = ["channels/archive/2024/*/*/*"]
+paths = ["channels/archive/2024/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -193,7 +193,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2025"
 keys = ["online"]
-paths = ["channels/archive/2025/*/*/*"]
+paths = ["channels/archive/2025/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -201,7 +201,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2026"
 keys = ["online"]
-paths = ["channels/archive/2026/*/*/*"]
+paths = ["channels/archive/2026/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
@@ -209,7 +209,7 @@ signing_days = 60
 [[delegations]]
 name = "channels-archive-2027"
 keys = ["online"]
-paths = ["channels/archive/2027/*/*/*"]
+paths = ["channels/archive/2027/*/*"]
 threshold = 1
 expires_days = 365
 signing_days = 60
