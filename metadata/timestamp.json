@@ -7,13 +7,13 @@
   ],
   "signed": {
     "_type": "timestamp",
+    "spec_version": "1.0.0",
+    "version": 43,
     "expires": "2026-10-07T07:04:34Z",
     "meta": {
       "snapshot.json": {
         "version": 38
       }
-    },
-    "spec_version": "1.0.0",
-    "version": 43
+    }
   }
 }

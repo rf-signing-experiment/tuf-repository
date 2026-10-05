@@ -7,6 +7,8 @@
   ],
   "signed": {
     "_type": "snapshot",
+    "spec_version": "1.0.0",
+    "version": 38,
     "expires": "2027-10-02T21:04:24Z",
     "meta": {
       "channels-archive-2016.json": {
@@ -66,8 +68,6 @@
       "targets.json": {
         "version": 15
       }
-    },
-    "spec_version": "1.0.0",
-    "version": 38
+    }
   }
 }
