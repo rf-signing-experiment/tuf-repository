@@ -2,14 +2,14 @@
   "signatures": [
     {
       "keyid": "94b015691ffcae2b4ed682ae7de9789dc37d3f923b8d33b8433b0f039561f5f8",
-      "sig": "3046022100c201af9f616fb0ea4a3420f989d100999916f73aae4821d273856214144d8999022100e8acf03747f6c75cce62770d0f2b75f55accf2386b8432d50b80f740162f8d66"
+      "sig": "30460221008c06c40b03156fa9618c272b0228ac6e9870f54e95a82d46a9ed58e481dae35d022100b86e271b51d80a5b4141d9f0264631693885e492e5e2413f8c0cf1c58ea14aac"
     }
   ],
   "signed": {
     "_type": "snapshot",
     "spec_version": "1.0.36",
-    "version": 3,
-    "expires": "2026-11-17T06:07:32Z",
+    "version": 4,
+    "expires": "2026-11-17T06:22:23Z",
     "meta": {
       "channels-archive-2016.json": {
         "version": 2,
@@ -124,17 +124,17 @@
         }
       },
       "rustup-archive.json": {
-        "version": 1,
-        "length": 426,
+        "version": 2,
+        "length": 358853,
         "hashes": {
-          "sha256": "c9787c0c4babd26eafbcb9138112395fa3c563189b798aa43bee29a9e703d44f"
+          "sha256": "ae1e4386d418411e17c57678ad7881bd8f7b0a5e60371575ee36d685a96a9a18"
         }
       },
       "rustup.json": {
-        "version": 1,
-        "length": 426,
+        "version": 2,
+        "length": 12762,
         "hashes": {
-          "sha256": "229b6425ec6b61bbb3f11cc49d1e6cb080552bf563c81faecec577214b576478"
+          "sha256": "495da0a4865fc02023bbfa042ee02e5ab0246bc026bd215a5aed194453473993"
         }
       },
       "targets.json": {
