@@ -1,15 +1,17 @@
 {
-  "signatures": [
-    {
-      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
-      "sig": "3046022100c284b01d5c94f7b5ffbbb582140ca31f7c53bf61567dd9c247ecf1815844a5bf022100dfc258e8f56b55e42183cf5974118401dac94454339744ed6111b818c63ce5a6"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 1,
-    "expires": "2027-01-02T04:58:52Z",
-    "targets": {}
+    "version": 2,
+    "expires": "2027-01-02T06:27:39Z",
+    "targets": {
+      "crates/trusted-keys.json": {
+        "length": 362,
+        "hashes": {
+          "sha256": "3e68f9f54cb02d6be7da02ed70939434a8a62063a9f9906f50356cd48846278a"
+        }
+      }
+    }
   }
 }
