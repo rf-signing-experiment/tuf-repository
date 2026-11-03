@@ -1,8 +1,8 @@
-storage = "gs://tufops"          # or gs://bucket/prefix
+storage = "gs://tufops"
 
 [keys.arlosi]
-owner = "@arlosi"
-public_key = """
+github = "arlosi"
+public = """
 -----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR
 kyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==
@@ -10,8 +10,8 @@ kyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==
 """
 
 [keys.arlosi-backup]
-owner = "@arlosi"
-public_key = """
+github = "arlosi"
+public = """
 -----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsB2Hl7venpo7oeAvhyQcEVtl+MzV
 WaCZuuQ2tEVoFFbyylGktHllD9hj00iz6kHjEtVzaixsZG1YLLuDk6KIxw==
@@ -19,8 +19,8 @@ WaCZuuQ2tEVoFFbyylGktHllD9hj00iz6kHjEtVzaixsZG1YLLuDk6KIxw==
 """
 
 [keys.walterhpearce]
-owner = "@walterhpearce"
-public_key = """
+github = "walterhpearce"
+public = """
 -----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkrCsG41NDuwkD1yh0cMFOUiZ8R74
 XcsGt6yK+qoEnTdtZGXhW0afTvidS33Lb+LqY7RIawu88MmewGNKPDh0TQ==
@@ -28,8 +28,8 @@ XcsGt6yK+qoEnTdtZGXhW0afTvidS33Lb+LqY7RIawu88MmewGNKPDh0TQ==
 """
 
 [keys.online]
-online = "gcpkms:projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/online/cryptoKeyVersions/1"
-public_key = """
+kms = "projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/online/cryptoKeyVersions/1"
+public = """
 -----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEurRtI7rt0SeiUzZYtRIazNqugoF1
 hd46conktN9SA/x/GioyP9MVC1Rf/lK2VFq1mQo0uXL452CDxz+4iVB0EA==
@@ -37,179 +37,187 @@ hd46conktN9SA/x/GioyP9MVC1Rf/lK2VFq1mQo0uXL452CDxz+4iVB0EA==
 """
 
 [keys.rustup]
-online = "gcpkms:projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/rustup/cryptoKeyVersions/1"
-public_key = """
+kms = "projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/rustup/cryptoKeyVersions/1"
+public = """
 -----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/QnMHJt7bEBrcsYITistAG2VWk8g
 reprAWkE7ymNXtiVE33+FIWUDJY5gMx2Pxl7Qg1ZWmSiEdinXUGG9P8QMQ==
 -----END PUBLIC KEY-----
 """
 
+[keys.channels]
+kms = "projects/rust-tuf/locations/global/keyRings/tufops/cryptoKeys/channels/cryptoKeyVersions/1"
+public = """
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX0mtapeF0+6RkHIRuBv2Xrbdpx2F
+u4BzD81XuTN7z7BqrtWyHLDNmwHlDJnu0NdIz7zBWlYciKWjMiDn98EE7g==
+-----END PUBLIC KEY-----
+"""
+
 [roles.root]
 keys = ["arlosi"]
 threshold = 1
-expires_days = 7
-signing_days = 3
+lifetime = "60d"
+renew = "7d"
 
 [roles.targets]
 keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [roles.snapshot]
 keys = ["online"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "14d"
+renew = "7d"
 
 [roles.timestamp]
 keys = ["online"]
 threshold = 1
-expires_days = 2
-signing_days = 1
-
+lifetime = "8d"
+renew = "2d"
 
 [[delegations]]
 name = "rustup"
 keys = ["rustup"]
 paths = ["rustup/*", "rustup/dist/*/*"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "30d"
 
 [[delegations]]
 name = "rustup-archive"
 keys = ["rustup"]
 paths = ["rustup/archive/*/*/*"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "30d"
 
 [[delegations]]
 name = "channels-stable"
-keys = ["online"]
+keys = ["channels"]
 paths = ["channels/stable/*"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "30d"
 
 [[delegations]]
 name = "channels-beta"
-keys = ["online"]
+keys = ["channels"]
 paths = ["channels/beta/*"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "30d"
 
 [[delegations]]
 name = "channels-current"
-keys = ["online"]
+keys = ["channels"]
 paths = ["channels/current/*"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "30d"
 
 [[delegations]]
 name = "crates"
-keys = ["arlosi", "walterhpearce"]
+keys = ["arlosi"]
 paths = ["crates/*"]
-threshold = 2
-expires_days = 365
-signing_days = 7
+threshold = 1
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2016"
-keys = ["online"]
 paths = ["channels/archive/2016/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2017"
-keys = ["online"]
 paths = ["channels/archive/2017/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2018"
-keys = ["online"]
 paths = ["channels/archive/2018/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2019"
-keys = ["online"]
 paths = ["channels/archive/2019/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2020"
-keys = ["online"]
 paths = ["channels/archive/2020/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2021"
-keys = ["online"]
 paths = ["channels/archive/2021/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2022"
-keys = ["online"]
 paths = ["channels/archive/2022/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2023"
-keys = ["online"]
 paths = ["channels/archive/2023/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2024"
-keys = ["online"]
 paths = ["channels/archive/2024/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2025"
-keys = ["online"]
 paths = ["channels/archive/2025/*/*"]
+keys = ["arlosi"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2026"
-keys = ["online"]
 paths = ["channels/archive/2026/*/*"]
+keys = ["online"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"
 
 [[delegations]]
 name = "channels-archive-2027"
-keys = ["online"]
 paths = ["channels/archive/2027/*/*"]
+keys = ["online"]
 threshold = 1
-expires_days = 365
-signing_days = 60
+lifetime = "60d"
+renew = "7d"

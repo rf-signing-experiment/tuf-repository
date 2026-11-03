@@ -1,12 +1,18 @@
-name: tufops-event
+# From the tufops template, next to tufops.yml.
+#
+# Runs on pushes to event branches, from the branch's own copy of this file,
+# so it gets no credentials and does nothing. Its completion starts tufops.yml
+# from main, which checks and signs the event.
+name: tufops event
+
 on:
   push:
-    branches: ["sign/**"]
+    branches: ["tufops/**"]
 
 permissions: {}
 
 jobs:
-  pushed:
+  notify:
     runs-on: ubuntu-latest
     steps:
-      - run: "true"
+      - run: echo "tufops.yml on main processes this push"

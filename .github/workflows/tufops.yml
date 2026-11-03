@@ -1,26 +1,74 @@
+# The workflow of a repository managed with tufops, from the tufops template.
+#
+# It holds the Google Cloud credentials (which sign with the online keys) and a
+# token that may push to main, so it only ever runs from main: on pushes to
+# main, on a schedule, and after tufops-event.yml runs for a push to an event
+# branch, which GitHub always runs from the default branch. Event branches are
+# only read as data. The `tufops` environment and the Google Cloud workload
+# identity provider enforce this; see the README.
 name: tufops
+
 on:
   push:
-    branches: [main, "sign/**"]
+    branches: [main]
+  workflow_run:
+    workflows: ["tufops event"]
+    types: [completed]
+  # Renew and publish even when nothing is pushed.
   schedule:
-    - cron: "17 */6 * * *"      # keeps timestamp fresh; well inside its signing_days
+    - cron: "23 * * * *"
   workflow_dispatch:
 
-permissions:
-  contents: read
-  id-token: write               # Google Workload Identity Federation
-
+# Runs read and push the same branches, so run one at a time.
 concurrency:
-  group: tufops-${{ github.ref }}
-  cancel-in-progress: false
+  group: tufops
+
+# For the built-in GITHUB_TOKEN, which only requests the Google Cloud
+# credentials. Git and the GitHub API use the tufops GitHub App's token.
+permissions:
+  id-token: write
+
+env:
+  # The tufops commit to run. Update it to upgrade tufops.
+  TUFOPS_REV: cae67a7e68847857c14ab64d971aa4b40b0a816e
 
 jobs:
   tufops:
+    # Deployment branches: main only. Holds the TUFOPS_APP_PRIVATE_KEY secret.
+    environment: tufops
     runs-on: ubuntu-latest
     steps:
-      - uses: rf-signing-experiment/tufops@95c63b4cfbff2cedb291efb28a9acb23e2f3075f # v0.7.0
+      # tufops is built once per commit and per runner, then restored from the
+      # cache. Runs from main only use caches saved by main.
+      - id: cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
-          app-client-id: ${{ vars.TUFOPS_APP_CLIENT_ID }}
-          app-private-key: ${{ secrets.TUFOPS_APP_PRIVATE_KEY }}
-          gcp-workload-identity-provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
-          gcp-service-account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          path: ~/.cargo/bin/tufops
+          key: tufops-${{ runner.os }}-${{ runner.arch }}-${{ env.TUFOPS_REV }}
+      # Built before any credentials are in the job.
+      - name: Install tufops
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: cargo install --locked --git https://github.com/arlosi/tufops --rev "$TUFOPS_REV" --no-default-features
+      # A token of the tufops GitHub App, which may push to main despite its
+      # branch protection. It is revoked when the job ends.
+      - id: app
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        with:
+          client-id: ${{ vars.TUFOPS_APP_CLIENT_ID }}
+          private-key: ${{ secrets.TUFOPS_APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+          permission-issues: write
+          permission-statuses: write
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ steps.app.outputs.token }}
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
+        with:
+          workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+      - run: tufops ci
+        env:
+          TUFOPS_GITHUB_TOKEN: ${{ steps.app.outputs.token }}
