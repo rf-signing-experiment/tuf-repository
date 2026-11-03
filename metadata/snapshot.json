@@ -1,0 +1,149 @@
+{
+  "signatures": [
+    {
+      "keyid": "94b015691ffcae2b4ed682ae7de9789dc37d3f923b8d33b8433b0f039561f5f8",
+      "sig": "3045022044ba42fe21bb547f04bd53fa572ecdbc022e9322d4a5a551b6d86bf959510194022100d93673aa0c8fc0872aa1ca913e587d5ab882dba9ad6731cd7af8f9a9092b9999"
+    }
+  ],
+  "signed": {
+    "_type": "snapshot",
+    "spec_version": "1.0.36",
+    "version": 1,
+    "expires": "2026-11-17T05:15:12Z",
+    "meta": {
+      "channels-archive-2016.json": {
+        "version": 1,
+        "length": 428,
+        "hashes": {
+          "sha256": "a6b3b28992289be63da81bdbc497fbf8abf85c27a9e1a44bb5f1917680b5a369"
+        }
+      },
+      "channels-archive-2017.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "18b8b3dbd6f997cc395bf30d31db7b35a856eb93bd873e55cd6c086f89c52bd3"
+        }
+      },
+      "channels-archive-2018.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "3486dbafc38804745610c8862f6fc0245bbbff3e06e0490e08eae435130e44a9"
+        }
+      },
+      "channels-archive-2019.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "e9d0b2aecaefdf8b6af6da77ed2def5b0a1fccbb64c7766a4e46601f1fcf2295"
+        }
+      },
+      "channels-archive-2020.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "9ebedaa6f9349a2489a2a616ca7ab4c162c227c9d3549fd39ce4964bd6322402"
+        }
+      },
+      "channels-archive-2021.json": {
+        "version": 1,
+        "length": 428,
+        "hashes": {
+          "sha256": "3d7a0af2893080d521e4cbc546083275fcd9983386daa938312a87340611ee4a"
+        }
+      },
+      "channels-archive-2022.json": {
+        "version": 1,
+        "length": 428,
+        "hashes": {
+          "sha256": "ab718cdfef4ee77b35aa72ae088cbde5c6b6acf9c58abc88d88bfa5d8a9ddab6"
+        }
+      },
+      "channels-archive-2023.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "a51023df01ec58041d31e64d537b7cad9b8e26414cdee6d3fe554e586ae49fc1"
+        }
+      },
+      "channels-archive-2024.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "b30aab1d05f128aec0e80ad68922f2700b7c9429897c86c760da5251b28d7575"
+        }
+      },
+      "channels-archive-2025.json": {
+        "version": 1,
+        "length": 428,
+        "hashes": {
+          "sha256": "7f39657788e6b286b675cfc75b0027851e5e6174084865563ae856774106b30d"
+        }
+      },
+      "channels-archive-2026.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "c7e8b394cc3c659115e0a033bf046e9d1ae0f093db220220152651d928b0ddea"
+        }
+      },
+      "channels-archive-2027.json": {
+        "version": 1,
+        "length": 428,
+        "hashes": {
+          "sha256": "24c102cc8e30ef7e68302938ebd4abab6322fcd873179ea3782186745e420451"
+        }
+      },
+      "channels-beta.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "539edd39bb4784f0471fd1018f312e802dc0aa4750c5095669766c8761a1209d"
+        }
+      },
+      "channels-current.json": {
+        "version": 1,
+        "length": 428,
+        "hashes": {
+          "sha256": "590d1514083bdf257e77574625635a677f6fd82890408d79531db184400db17c"
+        }
+      },
+      "channels-stable.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "9d2b06d85642f0088e96c14a210e7a7496d20ec97612a2a7421ea6ad55821465"
+        }
+      },
+      "crates.json": {
+        "version": 1,
+        "length": 428,
+        "hashes": {
+          "sha256": "bd92aea6849e2edfd61abaa8dee416523efe7c29ae7b57df46e69940bbb62a72"
+        }
+      },
+      "rustup-archive.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "c9787c0c4babd26eafbcb9138112395fa3c563189b798aa43bee29a9e703d44f"
+        }
+      },
+      "rustup.json": {
+        "version": 1,
+        "length": 426,
+        "hashes": {
+          "sha256": "229b6425ec6b61bbb3f11cc49d1e6cb080552bf563c81faecec577214b576478"
+        }
+      },
+      "targets.json": {
+        "version": 1,
+        "length": 7571,
+        "hashes": {
+          "sha256": "6b69cb5fed41d8884641cb8ea65b39e1183777770b316bd99dcad2a187e893ee"
+        }
+      }
+    }
+  }
+}
