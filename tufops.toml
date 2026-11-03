@@ -209,7 +209,7 @@ renew = "7d"
 [[delegations]]
 name = "channels-archive-2026"
 paths = ["channels/archive/2026/*/*"]
-keys = ["online"]
+keys = ["channels"]
 threshold = 1
 lifetime = "60d"
 renew = "7d"
@@ -217,7 +217,7 @@ renew = "7d"
 [[delegations]]
 name = "channels-archive-2027"
 paths = ["channels/archive/2027/*/*"]
-keys = ["online"]
+keys = ["channels"]
 threshold = 1
 lifetime = "60d"
 renew = "7d"
