@@ -30,7 +30,7 @@ permissions:
 
 env:
   # The tufops commit to run. Update it to upgrade tufops.
-  TUFOPS_REV: cae67a7e68847857c14ab64d971aa4b40b0a816e
+  TUFOPS_REV: 2068857709c26e4a46580e451a5496016ef98f87
 
 jobs:
   tufops:
