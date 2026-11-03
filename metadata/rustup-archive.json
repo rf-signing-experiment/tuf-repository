@@ -2,14 +2,14 @@
   "signatures": [
     {
       "keyid": "99ba810fc5bb83253051ba0700857e8380dd1094450c8b4f6b11e90e293efae0",
-      "sig": "3044022039cf96d77b2c491c972b8f718c8a4e6b4aecb5ad50e62dbfad28a1c8b0e9f224022039682b94812e800bda29ac08ab1e6185d716a780512b7418198d1a45c9aabddd"
+      "sig": "3046022100bdc39e8b5d0d55377508a7c98ae911ae452f8187624b89fca4887e215ee941ce0221009545fddeabfab949fa1bb2ba19a86ef1b6f00bcf472ad537683f59068683a4cb"
     }
   ],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 2,
-    "expires": "2027-01-02T06:15:00Z",
+    "version": 3,
+    "expires": "2027-01-02T14:49:52Z",
     "targets": {
       "rustup/archive/0.2.0/aarch64-unknown-linux-gnu/rustup-init": {
         "length": 9689448,
@@ -8511,6 +8511,252 @@
         "length": 17118984,
         "hashes": {
           "sha256": "a129f99a981c6e7ea6b9c22930be7387eb91b06ab1e3d50571edf2e2d3cd40d0"
+        }
+      },
+      "rustup/archive/1.29.3/aarch64-apple-darwin/rustup-init": {
+        "length": 11408656,
+        "hashes": {
+          "sha256": "63752a1919a3a4793173ec70f8f212621a7ce38ba6a246095984482f4de20f9f"
+        }
+      },
+      "rustup/archive/1.29.3/aarch64-linux-android/rustup-init": {
+        "length": 13301560,
+        "hashes": {
+          "sha256": "d0efb9baf38d860790ae73883348ac0e0a07ff31ade8066a3f0dbdfc5058b20a"
+        }
+      },
+      "rustup/archive/1.29.3/aarch64-pc-windows-gnullvm/rustup-init.exe": {
+        "length": 12606464,
+        "hashes": {
+          "sha256": "6055a192e5e47e50d354f41d236163e463b1cd858e55dc86380c5090a47e4d19"
+        }
+      },
+      "rustup/archive/1.29.3/aarch64-pc-windows-msvc/rustup-init.exe": {
+        "length": 11361792,
+        "hashes": {
+          "sha256": "407e0d72f81d26a01f9d032b8317908cbb2917ba22765474b682b41390792ad9"
+        }
+      },
+      "rustup/archive/1.29.3/aarch64-unknown-linux-gnu/rustup-init": {
+        "length": 20172120,
+        "hashes": {
+          "sha256": "9f608c142e0e38a78957d0661ba1dfaf0b6fb37184cfaa4b9a0aa57af6184282"
+        }
+      },
+      "rustup/archive/1.29.3/aarch64-unknown-linux-musl/rustup-init": {
+        "length": 19008208,
+        "hashes": {
+          "sha256": "956deacdc27ab82ae7ac821d5d3e9e95e4795d476d17efe99743bb8531ca1031"
+        }
+      },
+      "rustup/archive/1.29.3/arm-linux-androideabi/rustup-init": {
+        "length": 11432328,
+        "hashes": {
+          "sha256": "bef55b30b4e827f424b9021c7112188bb66ebd1aa71e9981d3e31dd789e4cfdd"
+        }
+      },
+      "rustup/archive/1.29.3/arm-unknown-linux-gnueabi/rustup-init": {
+        "length": 16795020,
+        "hashes": {
+          "sha256": "4053cbe46140f8c6dd9c657e0b8fead09ec35f77bcd740c8a32f8ce54a80eb57"
+        }
+      },
+      "rustup/archive/1.29.3/arm-unknown-linux-gnueabihf/rustup-init": {
+        "length": 16782088,
+        "hashes": {
+          "sha256": "56319bf0c965276fac4c5be99241782d03b647cc79af8934ba9afda0351288cc"
+        }
+      },
+      "rustup/archive/1.29.3/armv7-linux-androideabi/rustup-init": {
+        "length": 9166940,
+        "hashes": {
+          "sha256": "4ef1522827cb6840229496ac55f439c7613c2655c7349e78ebc2dee7bcb52589"
+        }
+      },
+      "rustup/archive/1.29.3/armv7-unknown-linux-gnueabihf/rustup-init": {
+        "length": 15578180,
+        "hashes": {
+          "sha256": "3d5771c716551ee55368be40e02859705f06d725b31df07c15e3593be2d2a5de"
+        }
+      },
+      "rustup/archive/1.29.3/i686-apple-darwin/rustup-init": {
+        "length": 7471160,
+        "hashes": {
+          "sha256": "0d4b45d8570a2dacf4a60e66d1271d61baa8df6938896075dd9521d67f4cef75"
+        }
+      },
+      "rustup/archive/1.29.3/i686-linux-android/rustup-init": {
+        "length": 12265336,
+        "hashes": {
+          "sha256": "bd30e87240a9bc30297cbf2d703f2fdebcb0d2d966285100a64182b41104ea19"
+        }
+      },
+      "rustup/archive/1.29.3/i686-pc-windows-gnu/rustup-init.exe": {
+        "length": 13740615,
+        "hashes": {
+          "sha256": "6392ca73bf686a868f0567565cc144f742eb3e9e297dbf8a16402ea5ca2b229a"
+        }
+      },
+      "rustup/archive/1.29.3/i686-pc-windows-msvc/rustup-init.exe": {
+        "length": 9997824,
+        "hashes": {
+          "sha256": "fa448cc3839d6fbacb5ed1954c16f60c4d16e7e6476677a66fffb34dc91bd201"
+        }
+      },
+      "rustup/archive/1.29.3/i686-unknown-linux-gnu/rustup-init": {
+        "length": 17658364,
+        "hashes": {
+          "sha256": "ef58377096e940ed8ba0d7f8841e6d125922d9d218e04897a05b7f667cf6f5c5"
+        }
+      },
+      "rustup/archive/1.29.3/loongarch64-unknown-linux-gnu/rustup-init": {
+        "length": 15215416,
+        "hashes": {
+          "sha256": "5bb6b00ef4790882169481d6a6c741cfec3c8353f8ffcbc1d3c7dea7ded794a3"
+        }
+      },
+      "rustup/archive/1.29.3/loongarch64-unknown-linux-musl/rustup-init": {
+        "length": 15152992,
+        "hashes": {
+          "sha256": "5990d16c1f283049dbe444d2f42b1838cc418e5d34873ad90380be309e68ee08"
+        }
+      },
+      "rustup/archive/1.29.3/mips-unknown-linux-gnu/rustup-init": {
+        "length": 13005624,
+        "hashes": {
+          "sha256": "d06121ac0e196c4d7c0d3b3e8f1910fe757338ea1531f077c70c98e8b3747ccc"
+        }
+      },
+      "rustup/archive/1.29.3/mips64-unknown-linux-gnuabi64/rustup-init": {
+        "length": 13975176,
+        "hashes": {
+          "sha256": "631ed18bfccfba20405ac6d94b9aaee17fb31415ffbc60007f08bbef324fc427"
+        }
+      },
+      "rustup/archive/1.29.3/mips64el-unknown-linux-gnuabi64/rustup-init": {
+        "length": 13996368,
+        "hashes": {
+          "sha256": "644cec63e594707a6098585038cf47e28546c2abe0dde7149cde71d79a0be674"
+        }
+      },
+      "rustup/archive/1.29.3/mipsel-unknown-linux-gnu/rustup-init": {
+        "length": 12997712,
+        "hashes": {
+          "sha256": "13be3b14c23ff04b26a9b187602728ff640724ebe25a5a855c9d3481ad2317af"
+        }
+      },
+      "rustup/archive/1.29.3/powerpc-unknown-linux-gnu/rustup-init": {
+        "length": 18327516,
+        "hashes": {
+          "sha256": "91c157149bdc5a7a0abe54b379eba45fdacdb09ca08a004149d09db579a4faec"
+        }
+      },
+      "rustup/archive/1.29.3/powerpc64-unknown-linux-gnu/rustup-init": {
+        "length": 19403792,
+        "hashes": {
+          "sha256": "455438300b07ae7b623bd32f8c4785160438ae3d82579c158807ec491217ba9b"
+        }
+      },
+      "rustup/archive/1.29.3/powerpc64-unknown-linux-musl/rustup-init": {
+        "length": 16874208,
+        "hashes": {
+          "sha256": "b05377906bede826ec923e6d47e43a1b005236e9dd0f29beb2674d3e1ee8b049"
+        }
+      },
+      "rustup/archive/1.29.3/powerpc64le-unknown-linux-gnu/rustup-init": {
+        "length": 18448616,
+        "hashes": {
+          "sha256": "d5b321db031525fbee38b736846f07a16df22b354a1964bbb79ff83495dbc0c9"
+        }
+      },
+      "rustup/archive/1.29.3/powerpc64le-unknown-linux-musl/rustup-init": {
+        "length": 17401560,
+        "hashes": {
+          "sha256": "334e1e79626a20a31f5cbc4d16e0386b280cc77e46da90bf5db68045b2012a74"
+        }
+      },
+      "rustup/archive/1.29.3/riscv64gc-unknown-linux-gnu/rustup-init": {
+        "length": 16762216,
+        "hashes": {
+          "sha256": "e4a960952692ac3dfb5fa4f74e593517241b83e43a93fbdcf2213c811748f1ae"
+        }
+      },
+      "rustup/archive/1.29.3/riscv64gc-unknown-linux-musl/rustup-init": {
+        "length": 16699360,
+        "hashes": {
+          "sha256": "3d87288288b166938b770e86a96f412b21413465b093ebee1efa71c6b9efd294"
+        }
+      },
+      "rustup/archive/1.29.3/s390x-unknown-linux-gnu/rustup-init": {
+        "length": 20656832,
+        "hashes": {
+          "sha256": "df1762614062280a326ac988019ed1f8ceebeafa5fac95164a7201ff10e31d4b"
+        }
+      },
+      "rustup/archive/1.29.3/sparcv9-sun-solaris/rustup-init": {
+        "length": 18900720,
+        "hashes": {
+          "sha256": "c6d1823f56aac2363c6883ec105fe67bfc19fd4cce30b849478626d1f9d9f128"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-apple-darwin/rustup-init": {
+        "length": 13041240,
+        "hashes": {
+          "sha256": "bc107f1fb0228de7fa32413c89c1b305cea9cd256e94b01150cd054128145429"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-linux-android/rustup-init": {
+        "length": 14388704,
+        "hashes": {
+          "sha256": "fc98a8c0dc910fcd0f462e55a1827203a5c416860113dd62d42b94e0297bea0b"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-pc-solaris/rustup-init": {
+        "length": 19630912,
+        "hashes": {
+          "sha256": "f9ad04941d0e5e134df6d71d8ea7344020489b77aabd1efb37d26a74953f0038"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-pc-windows-gnu/rustup-init.exe": {
+        "length": 14862151,
+        "hashes": {
+          "sha256": "f6289656ce42e1099f3cbc6f10ef6321dfde54773faf599dd36fd3b1f07d9103"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-pc-windows-msvc/rustup-init.exe": {
+        "length": 12839424,
+        "hashes": {
+          "sha256": "38027d51d69a5d05493627a0634dbea52d6cd793c8f072d2373d3f4163eec7db"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-unknown-freebsd/rustup-init": {
+        "length": 20962448,
+        "hashes": {
+          "sha256": "6c2fd1ace77dae186d34ad7b59d848d37d48f447cfc02c60c211e3503dc789cf"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-unknown-illumos/rustup-init": {
+        "length": 19241120,
+        "hashes": {
+          "sha256": "4fb138d4630ff9892427dde0f6cc4498ad839f13f695b7d5982bc99a2ede7828"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-unknown-linux-gnu/rustup-init": {
+        "length": 21347088,
+        "hashes": {
+          "sha256": "b1c8cb14e30889e7e2999e6b69e62d9e9b9ffc0f4df8180564d306d9680e6c55"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-unknown-linux-musl/rustup-init": {
+        "length": 21753664,
+        "hashes": {
+          "sha256": "1552169aba2836777136ccff7a381e95c17233b5d8250cd5e10ae3cb971bfcfc"
+        }
+      },
+      "rustup/archive/1.29.3/x86_64-unknown-netbsd/rustup-init": {
+        "length": 17245760,
+        "hashes": {
+          "sha256": "b3b81e3e737bc9465acfa5872c9c0afee7c6430bceaa52c038fbd9f3c327b51d"
         }
       },
       "rustup/archive/1.3.0/aarch64-linux-android/rustup-init": {
