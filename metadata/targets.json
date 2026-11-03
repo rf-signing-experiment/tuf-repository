@@ -1,5 +1,10 @@
 {
-  "signatures": [],
+  "signatures": [
+    {
+      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+      "sig": "30450220608166e309365ee5ddb37b5d1546f8df1d927e4b299fba7f146968e803bbdd2d022100d3dfaa5c40a2fca39371f8086dcebaa2b8720982b6d090c4d6f77e40bd34af69"
+    }
+  ],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
