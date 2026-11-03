@@ -1,0 +1,243 @@
+{
+  "signatures": [],
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.36",
+    "version": 1,
+    "expires": "2027-01-02T04:58:52Z",
+    "targets": {},
+    "delegations": {
+      "keys": {
+        "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f": {
+          "keytype": "ecdsa",
+          "scheme": "ecdsa-sha2-nistp256",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX0mtapeF0+6RkHIRuBv2Xrbdpx2F\nu4BzD81XuTN7z7BqrtWyHLDNmwHlDJnu0NdIz7zBWlYciKWjMiDn98EE7g==\n-----END PUBLIC KEY-----\n"
+          }
+        },
+        "94b015691ffcae2b4ed682ae7de9789dc37d3f923b8d33b8433b0f039561f5f8": {
+          "keytype": "ecdsa",
+          "scheme": "ecdsa-sha2-nistp256",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEurRtI7rt0SeiUzZYtRIazNqugoF1\nhd46conktN9SA/x/GioyP9MVC1Rf/lK2VFq1mQo0uXL452CDxz+4iVB0EA==\n-----END PUBLIC KEY-----\n"
+          }
+        },
+        "99ba810fc5bb83253051ba0700857e8380dd1094450c8b4f6b11e90e293efae0": {
+          "keytype": "ecdsa",
+          "scheme": "ecdsa-sha2-nistp256",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/QnMHJt7bEBrcsYITistAG2VWk8g\nreprAWkE7ymNXtiVE33+FIWUDJY5gMx2Pxl7Qg1ZWmSiEdinXUGG9P8QMQ==\n-----END PUBLIC KEY-----\n"
+          }
+        },
+        "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc": {
+          "keytype": "ecdsa",
+          "scheme": "ecdsa-sha2-nistp256",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmcIqt4wpIdBCFSZv7EuQkTr7lHjR\nkyR5EgRkaB5Am9Zc61orKQc9DiOTs5e9d84px3ebGh1NhzMGBUZHiGB1ow==\n-----END PUBLIC KEY-----\n"
+          }
+        }
+      },
+      "roles": [
+        {
+          "name": "rustup",
+          "keyids": [
+            "99ba810fc5bb83253051ba0700857e8380dd1094450c8b4f6b11e90e293efae0"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "rustup/*",
+            "rustup/dist/*/*"
+          ]
+        },
+        {
+          "name": "rustup-archive",
+          "keyids": [
+            "99ba810fc5bb83253051ba0700857e8380dd1094450c8b4f6b11e90e293efae0"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "rustup/archive/*/*/*"
+          ]
+        },
+        {
+          "name": "channels-stable",
+          "keyids": [
+            "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/stable/*"
+          ]
+        },
+        {
+          "name": "channels-beta",
+          "keyids": [
+            "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/beta/*"
+          ]
+        },
+        {
+          "name": "channels-current",
+          "keyids": [
+            "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/current/*"
+          ]
+        },
+        {
+          "name": "crates",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "crates/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2016",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2016/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2017",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2017/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2018",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2018/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2019",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2019/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2020",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2020/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2021",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2021/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2022",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2022/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2023",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2023/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2024",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2024/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2025",
+          "keyids": [
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2025/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2026",
+          "keyids": [
+            "94b015691ffcae2b4ed682ae7de9789dc37d3f923b8d33b8433b0f039561f5f8"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2026/*/*"
+          ]
+        },
+        {
+          "name": "channels-archive-2027",
+          "keyids": [
+            "94b015691ffcae2b4ed682ae7de9789dc37d3f923b8d33b8433b0f039561f5f8"
+          ],
+          "threshold": 1,
+          "terminating": true,
+          "paths": [
+            "channels/archive/2027/*/*"
+          ]
+        }
+      ]
+    }
+  }
+}
