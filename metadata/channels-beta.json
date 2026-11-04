@@ -2,14 +2,14 @@
   "signatures": [
     {
       "keyid": "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f",
-      "sig": "30440220506edd3858db628e7b567db96f26679eb4a765bd18e33bc0706e5fa2c8a3727202207c4ec88a88c2918630f1137bad4d279ef1e8117a87d93ac7cc3bdd48c857b9c5"
+      "sig": "3045022039326d77bea29f3af8d5b085e2a9106092aa35034e9b6aff0569cc55108ec593022100ba288e2780b8de5510e2527a3f3014788d1a751d696f62924f9c62c0cdcc5e70"
     }
   ],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 2,
-    "expires": "2027-01-02T05:52:24Z",
+    "version": 3,
+    "expires": "2027-01-03T01:14:33Z",
     "targets": {
       "channels/beta/1.100-beta-2026-09-29.toml": {
         "length": 890512,
@@ -57,6 +57,12 @@
         "length": 890512,
         "hashes": {
           "sha256": "a22e2b661b138b38502c3fe94d0a03571c950cd374f81c25f6f4fddff5fd47ea"
+        }
+      },
+      "channels/beta/1.100-beta-2026-11-04.toml": {
+        "length": 890512,
+        "hashes": {
+          "sha256": "1748d4a4ac863057e8ec7d300130ee5115bd6965c8f29ba0e18cac0be0ea9480"
         }
       },
       "channels/beta/1.100.0-beta-2026-09-29.toml": {
@@ -107,6 +113,12 @@
           "sha256": "a22e2b661b138b38502c3fe94d0a03571c950cd374f81c25f6f4fddff5fd47ea"
         }
       },
+      "channels/beta/1.100.0-beta-2026-11-04.toml": {
+        "length": 890512,
+        "hashes": {
+          "sha256": "1748d4a4ac863057e8ec7d300130ee5115bd6965c8f29ba0e18cac0be0ea9480"
+        }
+      },
       "channels/beta/1.100.0-beta.1-2026-09-29.toml": {
         "length": 890512,
         "hashes": {
@@ -153,6 +165,12 @@
         "length": 890512,
         "hashes": {
           "sha256": "a22e2b661b138b38502c3fe94d0a03571c950cd374f81c25f6f4fddff5fd47ea"
+        }
+      },
+      "channels/beta/1.100.0-beta.9-2026-11-04.toml": {
+        "length": 890512,
+        "hashes": {
+          "sha256": "1748d4a4ac863057e8ec7d300130ee5115bd6965c8f29ba0e18cac0be0ea9480"
         }
       },
       "channels/beta/1.75-beta-2023-11-13.toml": {
