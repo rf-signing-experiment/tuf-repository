@@ -1,15 +1,10 @@
 {
-  "signatures": [
-    {
-      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
-      "sig": "3044022021822f4db397c9369953a26706656613acc364249b08c21ea6fd1213d01dd50a02200828bc84209130ff2e8b169086b867e7744032a72c43d3b9e56e8ad8fd1f78f3"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 2,
-    "expires": "2027-01-02T05:52:24Z",
+    "version": 3,
+    "expires": "2027-01-03T19:02:57Z",
     "targets": {
       "channels/archive/2017/01-01/beta.toml": {
         "length": 146365,

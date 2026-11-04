@@ -1,15 +1,10 @@
 {
-  "signatures": [
-    {
-      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
-      "sig": "3045022100b14f97529a8e812800cfb6779e557f52c6cecc50fa01435a87bccbc9cf12a64e02201ffb26e88f8c5b64311cf8544d320400216bb5ebe127c88e2d5603e5c724ddc5"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 2,
-    "expires": "2027-01-02T06:27:39Z",
+    "version": 3,
+    "expires": "2027-01-03T19:02:57Z",
     "targets": {
       "crates/trusted-keys.json": {
         "length": 362,
