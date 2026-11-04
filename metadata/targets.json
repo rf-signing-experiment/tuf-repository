@@ -1,23 +1,32 @@
 {
-  "signatures": [
-    {
-      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
-      "sig": "30450220608166e309365ee5ddb37b5d1546f8df1d927e4b299fba7f146968e803bbdd2d022100d3dfaa5c40a2fca39371f8086dcebaa2b8720982b6d090c4d6f77e40bd34af69"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 2,
-    "expires": "2027-01-02T05:41:46Z",
+    "version": 3,
+    "expires": "2027-01-03T19:02:57Z",
     "targets": {},
     "delegations": {
       "keys": {
+        "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8": {
+          "keytype": "ecdsa",
+          "scheme": "ecdsa-sha2-nistp256",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsB2Hl7venpo7oeAvhyQcEVtl+MzV\nWaCZuuQ2tEVoFFbyylGktHllD9hj00iz6kHjEtVzaixsZG1YLLuDk6KIxw==\n-----END PUBLIC KEY-----\n"
+          }
+        },
         "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f": {
           "keytype": "ecdsa",
           "scheme": "ecdsa-sha2-nistp256",
           "keyval": {
             "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX0mtapeF0+6RkHIRuBv2Xrbdpx2F\nu4BzD81XuTN7z7BqrtWyHLDNmwHlDJnu0NdIz7zBWlYciKWjMiDn98EE7g==\n-----END PUBLIC KEY-----\n"
+          }
+        },
+        "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25": {
+          "keytype": "ecdsa",
+          "scheme": "ecdsa-sha2-nistp256",
+          "keyval": {
+            "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkrCsG41NDuwkD1yh0cMFOUiZ8R74\nXcsGt6yK+qoEnTdtZGXhW0afTvidS33Lb+LqY7RIawu88MmewGNKPDh0TQ==\n-----END PUBLIC KEY-----\n"
           }
         },
         "99ba810fc5bb83253051ba0700857e8380dd1094450c8b4f6b11e90e293efae0": {
@@ -95,9 +104,11 @@
         {
           "name": "crates",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "crates/*"
@@ -106,9 +117,11 @@
         {
           "name": "channels-archive-2016",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2016/*/*"
@@ -117,9 +130,11 @@
         {
           "name": "channels-archive-2017",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2017/*/*"
@@ -128,9 +143,11 @@
         {
           "name": "channels-archive-2018",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2018/*/*"
@@ -139,9 +156,11 @@
         {
           "name": "channels-archive-2019",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2019/*/*"
@@ -150,9 +169,11 @@
         {
           "name": "channels-archive-2020",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2020/*/*"
@@ -161,9 +182,11 @@
         {
           "name": "channels-archive-2021",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2021/*/*"
@@ -172,9 +195,11 @@
         {
           "name": "channels-archive-2022",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2022/*/*"
@@ -183,9 +208,11 @@
         {
           "name": "channels-archive-2023",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2023/*/*"
@@ -194,9 +221,11 @@
         {
           "name": "channels-archive-2024",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2024/*/*"
@@ -205,9 +234,11 @@
         {
           "name": "channels-archive-2025",
           "keyids": [
-            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc"
+            "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
+            "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
+            "98a59c80f51f214ab303c40c6aec978cf251e6568b73bfb1c957d3c334687d25"
           ],
-          "threshold": 1,
+          "threshold": 2,
           "terminating": true,
           "paths": [
             "channels/archive/2025/*/*"

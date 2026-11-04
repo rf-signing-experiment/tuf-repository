@@ -1,15 +1,10 @@
 {
-  "signatures": [
-    {
-      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
-      "sig": "3045022100d83ce3e18fb9aedab186c45cbd6ee053e9931bec487e7f4c202d423d6781290c02206c7e631046567dabac204c9c5573e95d6e96cb0f3b9e794930d6dc136c72cb8d"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 2,
-    "expires": "2027-01-02T05:52:24Z",
+    "version": 3,
+    "expires": "2027-01-03T19:02:57Z",
     "targets": {
       "channels/archive/2020/01-01/nightly.toml": {
         "length": 481278,
