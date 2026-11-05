@@ -2,14 +2,14 @@
   "signatures": [
     {
       "keyid": "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f",
-      "sig": "304402201faab0c451ab56fe8b372d34b92a6e70c0016bcb7341ce2cb3a57f091091815702202521d465cc2e6389d71d5199cda05a8621ac4789989829a9c0db65d23ea1af3a"
+      "sig": "304502205c3aab2f6947dcfb0b0098105834f9963fd5e4c220f36132113cb2aab08e5622022100952223094fbbdf40719804b76a9c9998f5f4162a3fcf3bdac8bf27feb474abeb"
     }
   ],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 3,
-    "expires": "2027-01-03T04:41:22Z",
+    "version": 4,
+    "expires": "2027-01-04T01:16:24Z",
     "targets": {
       "channels/beta/1.100-beta-2026-09-29.toml": {
         "length": 890512,
@@ -63,6 +63,12 @@
         "length": 890512,
         "hashes": {
           "sha256": "1748d4a4ac863057e8ec7d300130ee5115bd6965c8f29ba0e18cac0be0ea9480"
+        }
+      },
+      "channels/beta/1.100-beta-2026-11-05.toml": {
+        "length": 890531,
+        "hashes": {
+          "sha256": "325df53718c60181d663c7196f251f4ba9bac44ef2616896d1e33e8396a562db"
         }
       },
       "channels/beta/1.100.0-beta-2026-09-29.toml": {
@@ -119,10 +125,22 @@
           "sha256": "1748d4a4ac863057e8ec7d300130ee5115bd6965c8f29ba0e18cac0be0ea9480"
         }
       },
+      "channels/beta/1.100.0-beta-2026-11-05.toml": {
+        "length": 890531,
+        "hashes": {
+          "sha256": "325df53718c60181d663c7196f251f4ba9bac44ef2616896d1e33e8396a562db"
+        }
+      },
       "channels/beta/1.100.0-beta.1-2026-09-29.toml": {
         "length": 890512,
         "hashes": {
           "sha256": "748739f565e7977153cc87b1bf606072e31088a751ed351c1a076cfc4ebd04ed"
+        }
+      },
+      "channels/beta/1.100.0-beta.10-2026-11-05.toml": {
+        "length": 890531,
+        "hashes": {
+          "sha256": "325df53718c60181d663c7196f251f4ba9bac44ef2616896d1e33e8396a562db"
         }
       },
       "channels/beta/1.100.0-beta.2-2026-10-02.toml": {
