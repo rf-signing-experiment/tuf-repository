@@ -2,90 +2,90 @@
   "signatures": [
     {
       "keyid": "94b015691ffcae2b4ed682ae7de9789dc37d3f923b8d33b8433b0f039561f5f8",
-      "sig": "30450220417c52f3e8f7cdfd9b6254395764310eebce4f941d750ab165af17001aa3a31d022100c85fecf3eca740d90f0979791fd334a67f709a7f004506c5f7bee7977d143a79"
+      "sig": "3045022100c588f75c178b390289e507ab75f3cf3bba62c8df77772c1aab49183bc0671aec02205da1044593d36d2d5f4745a7f8dd38e8942e1c577841eef55d9a7c8771faf43b"
     }
   ],
   "signed": {
     "_type": "snapshot",
     "spec_version": "1.0.36",
-    "version": 13,
-    "expires": "2026-11-19T21:43:27Z",
+    "version": 14,
+    "expires": "2026-11-19T22:34:43Z",
     "meta": {
       "channels-archive-2016.json": {
-        "version": 3,
-        "length": 47514,
+        "version": 4,
+        "length": 49531,
         "hashes": {
-          "sha256": "c6a2952f371df00f2462290eedd3430ea221c202cee8a2d68245c6c7e568c798"
+          "sha256": "ecffccbdade36949468e7edb42347cc212088170dc9637e419839fd088db9035"
         }
       },
       "channels-archive-2017.json": {
-        "version": 3,
-        "length": 76667,
+        "version": 4,
+        "length": 78902,
         "hashes": {
-          "sha256": "fb5fbb14088e7c631fcea8a6ec96fa10b103160e86f577535c25bce41fee6fd1"
+          "sha256": "cf4604182bdcb09572dd4277dda0bdbae97fc1f3e19ac76d733d256eb8bb972f"
         }
       },
       "channels-archive-2018.json": {
-        "version": 3,
-        "length": 85225,
+        "version": 4,
+        "length": 88873,
         "hashes": {
-          "sha256": "8be50225cd323bd863b571b2bfba3ab18047ade7666e1f7d1eaa83e01e3d1ba1"
+          "sha256": "64932e2a88555878cf8730615241016e23aa7a1ee2e7ab7dc45ee59dbbb48765"
         }
       },
       "channels-archive-2019.json": {
-        "version": 3,
-        "length": 87208,
+        "version": 4,
+        "length": 89443,
         "hashes": {
-          "sha256": "44bace6ac8928e64bf365e5afaf73091403d9d003fb8da5aa7cbeddbcecf32f2"
+          "sha256": "f75fca52f2516acccdd691595981cd4cee276e83bdd320dec4a9996858a2f031"
         }
       },
       "channels-archive-2020.json": {
-        "version": 3,
-        "length": 87222,
+        "version": 4,
+        "length": 90870,
         "hashes": {
-          "sha256": "47e83d2aa91d2302eb0d8ef48ee23ea04abe45b3ef4145158483d6484a5e5788"
+          "sha256": "2bfe14de7ffbf9f4f0d2efa54a5d1365619dca37c749b5319a2100d0c7c94ea1"
         }
       },
       "channels-archive-2021.json": {
-        "version": 3,
-        "length": 86810,
+        "version": 4,
+        "length": 90854,
         "hashes": {
-          "sha256": "3bb86ef726dcd5633726c6cd123ff5fe59e0056917ca45c4291063ab285ded8d"
+          "sha256": "2588ddab34b6d34342e3a9c4e7282bfd021e1067e3c9a4dfa7c90d6251156eaf"
         }
       },
       "channels-archive-2022.json": {
-        "version": 3,
-        "length": 88432,
+        "version": 4,
+        "length": 92874,
         "hashes": {
-          "sha256": "008447c87ae723a019cbeb867d041da50810bf28969925c7e41e258aa535ab68"
+          "sha256": "1b98873c176a6fa05247b6c3c47e0e235ee55fe61fcff11389f99a60a929db2f"
         }
       },
       "channels-archive-2023.json": {
-        "version": 3,
-        "length": 90847,
+        "version": 4,
+        "length": 102309,
         "hashes": {
-          "sha256": "e8b4a3b5a5ea218f40598fc591125ecfcf89a08b9050d0cb5b05d6ac234b2aa7"
+          "sha256": "01eedb8cb2e4cd9255a1ce77f30bae1e15e8ef001e92d7a0078b62467611898a"
         }
       },
       "channels-archive-2024.json": {
-        "version": 3,
-        "length": 90827,
+        "version": 4,
+        "length": 140201,
         "hashes": {
-          "sha256": "bab6f247dc53bc3036e9692f0168459a5d1800767d9cbb56248661de3fc8db9d"
+          "sha256": "016aacd07e5f5970b3cc27432e32d277927bf50eb412e28127eb8400009ce627"
         }
       },
       "channels-archive-2025.json": {
-        "version": 3,
-        "length": 90996,
+        "version": 4,
+        "length": 138339,
         "hashes": {
-          "sha256": "6bf1515cf8b78b3ede807e39ae1d52aabcebd23e6d3245896f7b259a4d25c8e2"
+          "sha256": "6ef346104ff5cdacb1888461e4589aa8cc26d17656afc4f8b54f6526f1f5d7ed"
         }
       },
       "channels-archive-2026.json": {
-        "version": 7,
-        "length": 77765,
+        "version": 8,
+        "length": 119236,
         "hashes": {
-          "sha256": "42d887c652db6322870300c9c02b86ef39b3852f8f92a981590ecef1b45907c8"
+          "sha256": "f93d4b2960eca740d4c82dac12796949d789e335d6806473868760c76597bf95"
         }
       },
       "channels-archive-2027.json": {
