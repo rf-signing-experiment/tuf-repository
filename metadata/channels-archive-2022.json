@@ -1,19 +1,10 @@
 {
-  "signatures": [
-    {
-      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
-      "sig": "304402206a557a92d31bcc214c4afcf4dd5cd822dbf7bb0d726dae7fad8086c7cf8a1a9002202d73ab2594a0fb6b7c74c3f3d693026fcab57bcf1dd03b8d74de7f26626720d1"
-    },
-    {
-      "keyid": "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
-      "sig": "3046022100fc0988e3867072ccf4c904912ccccd5c747cc705ca30bfccf28448b26c6271a9022100b9c0ad0b736da2a2b762753c8f248469db19c35094bea0aa276d4bc9be6a0224"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 3,
-    "expires": "2027-01-03T19:02:57Z",
+    "version": 4,
+    "expires": "2027-01-04T22:26:54Z",
     "targets": {
       "channels/archive/2022/01-01/nightly.toml": {
         "length": 714299,
@@ -93,6 +84,18 @@
           "sha256": "9486c50b055599bec7659843551272d7e9e8b92d4be89c40e78db338ed027e33"
         }
       },
+      "channels/archive/2022/01-13/1.58.0.toml": {
+        "length": 702690,
+        "hashes": {
+          "sha256": "7900694a6cbdfa81df5723ecd046be1956747ef21ab63e9056136160a389e899"
+        }
+      },
+      "channels/archive/2022/01-13/1.58.toml": {
+        "length": 702690,
+        "hashes": {
+          "sha256": "7900694a6cbdfa81df5723ecd046be1956747ef21ab63e9056136160a389e899"
+        }
+      },
       "channels/archive/2022/01-13/nightly.toml": {
         "length": 714299,
         "hashes": {
@@ -145,6 +148,18 @@
         "length": 722729,
         "hashes": {
           "sha256": "023a862ae1360180b45e7ae2d0e1963323e01e4ed14c8424f2da092a646a7722"
+        }
+      },
+      "channels/archive/2022/01-20/1.58.1.toml": {
+        "length": 702690,
+        "hashes": {
+          "sha256": "34bf981e73a3d7efb53bb0806902e28f00312895bd4a71e0f2ab22389d66d0a9"
+        }
+      },
+      "channels/archive/2022/01-20/1.58.toml": {
+        "length": 702690,
+        "hashes": {
+          "sha256": "34bf981e73a3d7efb53bb0806902e28f00312895bd4a71e0f2ab22389d66d0a9"
         }
       },
       "channels/archive/2022/01-20/beta.toml": {
@@ -409,6 +424,18 @@
         "length": 733457,
         "hashes": {
           "sha256": "e4b25165f98b6230b95190666682e898ccfd3f93938cffad7b94c8f515fc8192"
+        }
+      },
+      "channels/archive/2022/02-24/1.59.0.toml": {
+        "length": 702690,
+        "hashes": {
+          "sha256": "e085196565c7041c5cc11b909bd7a43b0cdcd2836a1fff4d908d5e8d6eca6a35"
+        }
+      },
+      "channels/archive/2022/02-24/1.59.toml": {
+        "length": 702690,
+        "hashes": {
+          "sha256": "e085196565c7041c5cc11b909bd7a43b0cdcd2836a1fff4d908d5e8d6eca6a35"
         }
       },
       "channels/archive/2022/02-24/nightly.toml": {
@@ -711,6 +738,18 @@
           "sha256": "bce1b33a0a45016a9295712cf4880c1bb8d6c21b26a2e1874911f001c1f271cb"
         }
       },
+      "channels/archive/2022/04-07/1.60.0.toml": {
+        "length": 713392,
+        "hashes": {
+          "sha256": "a2d826fbb9c497de091bf07e4d8856b1e66c1d5d6fa06701b16fe5383dbfebc8"
+        }
+      },
+      "channels/archive/2022/04-07/1.60.toml": {
+        "length": 713392,
+        "hashes": {
+          "sha256": "a2d826fbb9c497de091bf07e4d8856b1e66c1d5d6fa06701b16fe5383dbfebc8"
+        }
+      },
       "channels/archive/2022/04-07/nightly.toml": {
         "length": 718749,
         "hashes": {
@@ -997,6 +1036,18 @@
         "length": 732009,
         "hashes": {
           "sha256": "61f21c947dbeb2ec00c195cb45f96dd25e0d6533505ba8a1f1eb58b53a56c24f"
+        }
+      },
+      "channels/archive/2022/05-19/1.61.0.toml": {
+        "length": 716636,
+        "hashes": {
+          "sha256": "a2ba341eca2c6cb440b99c7af31774cdf80f97a79f363d8042bb8a46adca0368"
+        }
+      },
+      "channels/archive/2022/05-19/1.61.toml": {
+        "length": 716636,
+        "hashes": {
+          "sha256": "a2ba341eca2c6cb440b99c7af31774cdf80f97a79f363d8042bb8a46adca0368"
         }
       },
       "channels/archive/2022/05-19/beta.toml": {
@@ -1305,6 +1356,18 @@
           "sha256": "9c800f3bf980a9559115a32b8232706f1fcca7d45766a5fdd932c904f967a341"
         }
       },
+      "channels/archive/2022/06-30/1.62.0.toml": {
+        "length": 720370,
+        "hashes": {
+          "sha256": "028aa3a0b89fcfc5eb6563fba626ae15f582be1ccf30b2b17efe7b87a360d683"
+        }
+      },
+      "channels/archive/2022/06-30/1.62.toml": {
+        "length": 720370,
+        "hashes": {
+          "sha256": "028aa3a0b89fcfc5eb6563fba626ae15f582be1ccf30b2b17efe7b87a360d683"
+        }
+      },
       "channels/archive/2022/06-30/nightly.toml": {
         "length": 730916,
         "hashes": {
@@ -1447,6 +1510,18 @@
         "length": 740873,
         "hashes": {
           "sha256": "399525e5a59423113466bc40c15c8e9c423a6be624170512e183cda3e4a5a0be"
+        }
+      },
+      "channels/archive/2022/07-19/1.62.1.toml": {
+        "length": 720370,
+        "hashes": {
+          "sha256": "12df171725e195fe4ec95a89931ae6931bf8e0d44de78b94d822d44d92948ed3"
+        }
+      },
+      "channels/archive/2022/07-19/1.62.toml": {
+        "length": 720370,
+        "hashes": {
+          "sha256": "12df171725e195fe4ec95a89931ae6931bf8e0d44de78b94d822d44d92948ed3"
         }
       },
       "channels/archive/2022/07-19/nightly.toml": {
@@ -1615,6 +1690,18 @@
         "length": 740850,
         "hashes": {
           "sha256": "472a525bae905780573ddfa40dcb921089d671e9b989be89d2279b6430b1ca98"
+        }
+      },
+      "channels/archive/2022/08-11/1.63.0.toml": {
+        "length": 720369,
+        "hashes": {
+          "sha256": "297c7e203d32e268360772c7a7b2326a232b75ec45ea872d0039c0b4520e8eb6"
+        }
+      },
+      "channels/archive/2022/08-11/1.63.toml": {
+        "length": 720369,
+        "hashes": {
+          "sha256": "297c7e203d32e268360772c7a7b2326a232b75ec45ea872d0039c0b4520e8eb6"
         }
       },
       "channels/archive/2022/08-11/nightly.toml": {
@@ -1911,6 +1998,18 @@
           "sha256": "b8ca6bb2316db59cf7e265347258c7344adec0881ebfdf8225adc8ccd8da5233"
         }
       },
+      "channels/archive/2022/09-22/1.64.0.toml": {
+        "length": 730354,
+        "hashes": {
+          "sha256": "f257a7de2f284f025238964ca2c1865c704be4156e1909d6393d92b796005055"
+        }
+      },
+      "channels/archive/2022/09-22/1.64.toml": {
+        "length": 730354,
+        "hashes": {
+          "sha256": "f257a7de2f284f025238964ca2c1865c704be4156e1909d6393d92b796005055"
+        }
+      },
       "channels/archive/2022/09-22/nightly.toml": {
         "length": 732343,
         "hashes": {
@@ -2205,6 +2304,18 @@
           "sha256": "ab1a06357374c71a8d278b22b9dd9c583385f951a98cfa262bacea96f04841a6"
         }
       },
+      "channels/archive/2022/11-03/1.65.0.toml": {
+        "length": 731363,
+        "hashes": {
+          "sha256": "0f3344696ef6e0ef3f07cf38e2db790151e64a3490ddc9b3954e013fdd284656"
+        }
+      },
+      "channels/archive/2022/11-03/1.65.toml": {
+        "length": 731363,
+        "hashes": {
+          "sha256": "0f3344696ef6e0ef3f07cf38e2db790151e64a3490ddc9b3954e013fdd284656"
+        }
+      },
       "channels/archive/2022/11-03/nightly.toml": {
         "length": 757616,
         "hashes": {
@@ -2473,6 +2584,18 @@
         "length": 768844,
         "hashes": {
           "sha256": "b886f052cedd3903d8f85339789899b6885452ae07cd0bda846525c371a6803e"
+        }
+      },
+      "channels/archive/2022/12-15/1.66.0.toml": {
+        "length": 737489,
+        "hashes": {
+          "sha256": "4bb7a92e57e5c2dd1dd4664fe38bb95e8b207fa751ae6afcc710be325d8fabb7"
+        }
+      },
+      "channels/archive/2022/12-15/1.66.toml": {
+        "length": 737489,
+        "hashes": {
+          "sha256": "4bb7a92e57e5c2dd1dd4664fe38bb95e8b207fa751ae6afcc710be325d8fabb7"
         }
       },
       "channels/archive/2022/12-15/nightly.toml": {

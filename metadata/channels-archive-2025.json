@@ -1,19 +1,10 @@
 {
-  "signatures": [
-    {
-      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
-      "sig": "30440220791236cf11c64ddf8e3b8713ded74a21e6c1cf799bfda7a330ae11aabb0497ec02203d942d4df471346d343188c3001f4462f783977ed517acbbff0c714d6d0ef68c"
-    },
-    {
-      "keyid": "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
-      "sig": "3044022046a76debeb98249a568fa98f3185c64ad95bb727d8470bad91fdfad9c14677d70220570763c5f232d0df102a528849df6767ef1f91ad4ff6a650d467f355281473ca"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 3,
-    "expires": "2027-01-03T19:02:57Z",
+    "version": 4,
+    "expires": "2027-01-04T22:26:54Z",
     "targets": {
       "channels/archive/2025/01-01/nightly.toml": {
         "length": 907323,
@@ -31,6 +22,24 @@
         "length": 907323,
         "hashes": {
           "sha256": "a5a04ac92a0f62af1317769ae97a27b353ee3b3805fd8e3abd8821d83b44c11e"
+        }
+      },
+      "channels/archive/2025/01-04/1.84-beta.toml": {
+        "length": 838990,
+        "hashes": {
+          "sha256": "81c2dbd34750be564c3d5b41ac3a67e895f8d2c91e6057aca3377224892625d4"
+        }
+      },
+      "channels/archive/2025/01-04/1.84.0-beta.6.toml": {
+        "length": 838990,
+        "hashes": {
+          "sha256": "81c2dbd34750be564c3d5b41ac3a67e895f8d2c91e6057aca3377224892625d4"
+        }
+      },
+      "channels/archive/2025/01-04/1.84.0-beta.toml": {
+        "length": 838990,
+        "hashes": {
+          "sha256": "81c2dbd34750be564c3d5b41ac3a67e895f8d2c91e6057aca3377224892625d4"
         }
       },
       "channels/archive/2025/01-04/beta.toml": {
@@ -63,6 +72,24 @@
           "sha256": "5645cb0867260417fa8e4f069f8fd15ff5ee79f21b728fda4f52360792c3315e"
         }
       },
+      "channels/archive/2025/01-08/1.85-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "79ee6f38cfa1c55dae15723909bfd5670be2b472e47ae844bd451e46e142f152"
+        }
+      },
+      "channels/archive/2025/01-08/1.85.0-beta.1.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "79ee6f38cfa1c55dae15723909bfd5670be2b472e47ae844bd451e46e142f152"
+        }
+      },
+      "channels/archive/2025/01-08/1.85.0-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "79ee6f38cfa1c55dae15723909bfd5670be2b472e47ae844bd451e46e142f152"
+        }
+      },
       "channels/archive/2025/01-08/beta.toml": {
         "length": 879449,
         "hashes": {
@@ -73,6 +100,18 @@
         "length": 916131,
         "hashes": {
           "sha256": "86958cecdcd4be31e0d31b48826edfb63282735a9c01e7afe395ea0f728c790a"
+        }
+      },
+      "channels/archive/2025/01-09/1.84.0.toml": {
+        "length": 840834,
+        "hashes": {
+          "sha256": "94c2c0ba9c6783815df45d680f0f20c7ea80d11b85ee8bbbc61354f3082cd0f5"
+        }
+      },
+      "channels/archive/2025/01-09/1.84.toml": {
+        "length": 840834,
+        "hashes": {
+          "sha256": "94c2c0ba9c6783815df45d680f0f20c7ea80d11b85ee8bbbc61354f3082cd0f5"
         }
       },
       "channels/archive/2025/01-09/nightly.toml": {
@@ -97,6 +136,24 @@
         "length": 916131,
         "hashes": {
           "sha256": "ee6de4f3be79ba048168d3a4d5dbdd541149df332c3659f6e060e50fb947a259"
+        }
+      },
+      "channels/archive/2025/01-12/1.85-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "39f86417ebbf6e24550c031cbac505b349bb605af5cfe299c671c11472f122c1"
+        }
+      },
+      "channels/archive/2025/01-12/1.85.0-beta.2.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "39f86417ebbf6e24550c031cbac505b349bb605af5cfe299c671c11472f122c1"
+        }
+      },
+      "channels/archive/2025/01-12/1.85.0-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "39f86417ebbf6e24550c031cbac505b349bb605af5cfe299c671c11472f122c1"
         }
       },
       "channels/archive/2025/01-12/beta.toml": {
@@ -135,6 +192,24 @@
           "sha256": "b87c385598bdee2e9198c48cb8c898c60507c3921a49f26278b99869f264a958"
         }
       },
+      "channels/archive/2025/01-18/1.85-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "757d2ff6295a4cb8a1fea7f24eb255fe16da444c81446bee0fea99af47be5b5b"
+        }
+      },
+      "channels/archive/2025/01-18/1.85.0-beta.4.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "757d2ff6295a4cb8a1fea7f24eb255fe16da444c81446bee0fea99af47be5b5b"
+        }
+      },
+      "channels/archive/2025/01-18/1.85.0-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "757d2ff6295a4cb8a1fea7f24eb255fe16da444c81446bee0fea99af47be5b5b"
+        }
+      },
       "channels/archive/2025/01-18/beta.toml": {
         "length": 879449,
         "hashes": {
@@ -157,6 +232,24 @@
         "length": 916881,
         "hashes": {
           "sha256": "ce2ff5cbe32da32bb1526e3bcdd8a553d4ebe3ccf07a6fde1f16e4893f8bc0db"
+        }
+      },
+      "channels/archive/2025/01-21/1.85-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "f629c0982c037cc1a5adcc32f4b38b8f7d552933da216462d29988894f4e1f30"
+        }
+      },
+      "channels/archive/2025/01-21/1.85.0-beta.5.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "f629c0982c037cc1a5adcc32f4b38b8f7d552933da216462d29988894f4e1f30"
+        }
+      },
+      "channels/archive/2025/01-21/1.85.0-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "f629c0982c037cc1a5adcc32f4b38b8f7d552933da216462d29988894f4e1f30"
         }
       },
       "channels/archive/2025/01-21/beta.toml": {
@@ -201,6 +294,24 @@
           "sha256": "8edbf58021ecb6f03b638a10fbebb2d2e6076a4e12b3182b7cfdbfe58c44f864"
         }
       },
+      "channels/archive/2025/01-27/1.85-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "d16c3de9e2218cceeb7ca2009fbf46af9f75c06fd08303f3cdc44c283d2be205"
+        }
+      },
+      "channels/archive/2025/01-27/1.85.0-beta.6.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "d16c3de9e2218cceeb7ca2009fbf46af9f75c06fd08303f3cdc44c283d2be205"
+        }
+      },
+      "channels/archive/2025/01-27/1.85.0-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "d16c3de9e2218cceeb7ca2009fbf46af9f75c06fd08303f3cdc44c283d2be205"
+        }
+      },
       "channels/archive/2025/01-27/beta.toml": {
         "length": 879449,
         "hashes": {
@@ -225,6 +336,18 @@
           "sha256": "c5f55573853d04a87810d23993dcf1199c9d319b471cf4d025e9b2564e33d778"
         }
       },
+      "channels/archive/2025/01-30/1.84.1.toml": {
+        "length": 840834,
+        "hashes": {
+          "sha256": "bcc973d331ddba85edae5bb42a3d63129ef5b58157cb2980096f0be23cebccd0"
+        }
+      },
+      "channels/archive/2025/01-30/1.84.toml": {
+        "length": 840834,
+        "hashes": {
+          "sha256": "bcc973d331ddba85edae5bb42a3d63129ef5b58157cb2980096f0be23cebccd0"
+        }
+      },
       "channels/archive/2025/01-30/nightly.toml": {
         "length": 916881,
         "hashes": {
@@ -247,6 +370,24 @@
         "length": 916881,
         "hashes": {
           "sha256": "f758c7c417142a7e88c0402930231b4502b7272ffed1891224cca265dca60c8f"
+        }
+      },
+      "channels/archive/2025/02-02/1.85-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "a3f522b062faff099b4f610ebc3228b7ccf12918e77dab2cba10c160645e24ba"
+        }
+      },
+      "channels/archive/2025/02-02/1.85.0-beta.7.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "a3f522b062faff099b4f610ebc3228b7ccf12918e77dab2cba10c160645e24ba"
+        }
+      },
+      "channels/archive/2025/02-02/1.85.0-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "a3f522b062faff099b4f610ebc3228b7ccf12918e77dab2cba10c160645e24ba"
         }
       },
       "channels/archive/2025/02-02/beta.toml": {
@@ -291,6 +432,24 @@
           "sha256": "68c8b73b6ef981a918554857563102c55103b743627f6daf7c241395bff791c3"
         }
       },
+      "channels/archive/2025/02-08/1.85-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "cb17c95f2b5f4aa514c011922b194d820b25d71fe64a2aaa58a8ca92fe1234c4"
+        }
+      },
+      "channels/archive/2025/02-08/1.85.0-beta.8.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "cb17c95f2b5f4aa514c011922b194d820b25d71fe64a2aaa58a8ca92fe1234c4"
+        }
+      },
+      "channels/archive/2025/02-08/1.85.0-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "cb17c95f2b5f4aa514c011922b194d820b25d71fe64a2aaa58a8ca92fe1234c4"
+        }
+      },
       "channels/archive/2025/02-08/beta.toml": {
         "length": 879449,
         "hashes": {
@@ -333,6 +492,24 @@
           "sha256": "e10b73ad85fe1a3797a6f84a27a04f398af394d45eab4ff37001092eda04a4c8"
         }
       },
+      "channels/archive/2025/02-14/1.85-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "f5e964183e6d983d667adf41cff9bdd7dc1f7f6178a92b7c053affe0f9735cc0"
+        }
+      },
+      "channels/archive/2025/02-14/1.85.0-beta.9.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "f5e964183e6d983d667adf41cff9bdd7dc1f7f6178a92b7c053affe0f9735cc0"
+        }
+      },
+      "channels/archive/2025/02-14/1.85.0-beta.toml": {
+        "length": 879449,
+        "hashes": {
+          "sha256": "f5e964183e6d983d667adf41cff9bdd7dc1f7f6178a92b7c053affe0f9735cc0"
+        }
+      },
       "channels/archive/2025/02-14/beta.toml": {
         "length": 879449,
         "hashes": {
@@ -363,6 +540,24 @@
           "sha256": "31889d8955ef2e5c4825a0f23466869f607eb2eb5ef9227953f35bd0c07a2c6b"
         }
       },
+      "channels/archive/2025/02-18/1.86-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "9cd65acc68d5c97cdb354f6269fb1cc927aa8de0b2a66ef4042855ec61eb70dd"
+        }
+      },
+      "channels/archive/2025/02-18/1.86.0-beta.1.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "9cd65acc68d5c97cdb354f6269fb1cc927aa8de0b2a66ef4042855ec61eb70dd"
+        }
+      },
+      "channels/archive/2025/02-18/1.86.0-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "9cd65acc68d5c97cdb354f6269fb1cc927aa8de0b2a66ef4042855ec61eb70dd"
+        }
+      },
       "channels/archive/2025/02-18/beta.toml": {
         "length": 891873,
         "hashes": {
@@ -379,6 +574,18 @@
         "length": 919759,
         "hashes": {
           "sha256": "5488130a42e383d24842897d9d8e1e21f75cb02469ec1fa04472a650a8d420ff"
+        }
+      },
+      "channels/archive/2025/02-20/1.85.0.toml": {
+        "length": 881345,
+        "hashes": {
+          "sha256": "009e8b5ff43f12bf644b5e5b9fd89f96453072062a450c623882f64e85405da5"
+        }
+      },
+      "channels/archive/2025/02-20/1.85.toml": {
+        "length": 881345,
+        "hashes": {
+          "sha256": "009e8b5ff43f12bf644b5e5b9fd89f96453072062a450c623882f64e85405da5"
         }
       },
       "channels/archive/2025/02-20/nightly.toml": {
@@ -417,6 +624,24 @@
           "sha256": "78d67ed596605c3efa078c455e9f6faf1c84a67fc0fbf1fbdc2dfd540a2c34de"
         }
       },
+      "channels/archive/2025/02-25/1.86-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "a80692e50aeb218aebba9a76a6923b2fe6daf65191cc5063778362a49359fa33"
+        }
+      },
+      "channels/archive/2025/02-25/1.86.0-beta.2.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "a80692e50aeb218aebba9a76a6923b2fe6daf65191cc5063778362a49359fa33"
+        }
+      },
+      "channels/archive/2025/02-25/1.86.0-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "a80692e50aeb218aebba9a76a6923b2fe6daf65191cc5063778362a49359fa33"
+        }
+      },
       "channels/archive/2025/02-25/beta.toml": {
         "length": 891873,
         "hashes": {
@@ -441,6 +666,24 @@
           "sha256": "204c780d6c6473e6f3cd80c3ccf210cd5e7e78b4b317af4b08cfa5d016125494"
         }
       },
+      "channels/archive/2025/02-28/1.86-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "b7892f41e6a4cc96530fd287bbcd56456c410dd7a5746a1ca39a6fc079f733d8"
+        }
+      },
+      "channels/archive/2025/02-28/1.86.0-beta.3.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "b7892f41e6a4cc96530fd287bbcd56456c410dd7a5746a1ca39a6fc079f733d8"
+        }
+      },
+      "channels/archive/2025/02-28/1.86.0-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "b7892f41e6a4cc96530fd287bbcd56456c410dd7a5746a1ca39a6fc079f733d8"
+        }
+      },
       "channels/archive/2025/02-28/beta.toml": {
         "length": 891873,
         "hashes": {
@@ -463,6 +706,24 @@
         "length": 919759,
         "hashes": {
           "sha256": "5221ffa559de53ca169d0002bd2592918fc1c28b3ac1dc21373ce0a0823c02b5"
+        }
+      },
+      "channels/archive/2025/03-03/1.86-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "36b9db73aef12c49d2fd1ba5830801b57e4fbdc43851ccf9510970201c9e31fb"
+        }
+      },
+      "channels/archive/2025/03-03/1.86.0-beta.4.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "36b9db73aef12c49d2fd1ba5830801b57e4fbdc43851ccf9510970201c9e31fb"
+        }
+      },
+      "channels/archive/2025/03-03/1.86.0-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "36b9db73aef12c49d2fd1ba5830801b57e4fbdc43851ccf9510970201c9e31fb"
         }
       },
       "channels/archive/2025/03-03/beta.toml": {
@@ -505,6 +766,24 @@
         "length": 919759,
         "hashes": {
           "sha256": "ddf97f71ecac91bbdbd40501d60bd6b6d37861ce089cff98bbbc06ed57ae3f58"
+        }
+      },
+      "channels/archive/2025/03-09/1.86-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "dcf74f60767f1849b30a813db6059d3db6c563846b374a22b19675336f1e8cf4"
+        }
+      },
+      "channels/archive/2025/03-09/1.86.0-beta.5.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "dcf74f60767f1849b30a813db6059d3db6c563846b374a22b19675336f1e8cf4"
+        }
+      },
+      "channels/archive/2025/03-09/1.86.0-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "dcf74f60767f1849b30a813db6059d3db6c563846b374a22b19675336f1e8cf4"
         }
       },
       "channels/archive/2025/03-09/beta.toml": {
@@ -561,6 +840,24 @@
           "sha256": "05b8b06c9dada490365b6908169c5d0b78daaa711ab3b7ca7987672f79b80564"
         }
       },
+      "channels/archive/2025/03-17/1.86-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "0ad5a7066a492cfed7b1e98c8bbc08653784e86f8546f0d9b2796f930f4a9571"
+        }
+      },
+      "channels/archive/2025/03-17/1.86.0-beta.6.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "0ad5a7066a492cfed7b1e98c8bbc08653784e86f8546f0d9b2796f930f4a9571"
+        }
+      },
+      "channels/archive/2025/03-17/1.86.0-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "0ad5a7066a492cfed7b1e98c8bbc08653784e86f8546f0d9b2796f930f4a9571"
+        }
+      },
       "channels/archive/2025/03-17/beta.toml": {
         "length": 891873,
         "hashes": {
@@ -571,6 +868,18 @@
         "length": 901480,
         "hashes": {
           "sha256": "c18eb0c6db5dd2ed2cd6fa09adb5ab0e1994d4363959c91145e4d78491a516cc"
+        }
+      },
+      "channels/archive/2025/03-18/1.85.1.toml": {
+        "length": 881345,
+        "hashes": {
+          "sha256": "1e7dae690cd12e27405a97e64704917489a27c650201bf47780a936055d67909"
+        }
+      },
+      "channels/archive/2025/03-18/1.85.toml": {
+        "length": 881345,
+        "hashes": {
+          "sha256": "1e7dae690cd12e27405a97e64704917489a27c650201bf47780a936055d67909"
         }
       },
       "channels/archive/2025/03-18/nightly.toml": {
@@ -607,6 +916,24 @@
         "length": 901480,
         "hashes": {
           "sha256": "2a1a5de58bc1576e0339d8896366edb214df47cac2335a7458e6edae441397eb"
+        }
+      },
+      "channels/archive/2025/03-23/1.86-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "400d503007170e06fec16ca361be205fd2efab89a2b4ff3464639d8b88f02896"
+        }
+      },
+      "channels/archive/2025/03-23/1.86.0-beta.7.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "400d503007170e06fec16ca361be205fd2efab89a2b4ff3464639d8b88f02896"
+        }
+      },
+      "channels/archive/2025/03-23/1.86.0-beta.toml": {
+        "length": 891873,
+        "hashes": {
+          "sha256": "400d503007170e06fec16ca361be205fd2efab89a2b4ff3464639d8b88f02896"
         }
       },
       "channels/archive/2025/03-23/beta.toml": {
@@ -675,6 +1002,24 @@
           "sha256": "acfe3a751a03a6b0c88307241fcc2686efeef491e8fbb6f27b3f572ae046b9a4"
         }
       },
+      "channels/archive/2025/04-02/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "89f66255983aa2852a3624799cb88ac3d5f3f204167e8737e8bef8e965d8a4c1"
+        }
+      },
+      "channels/archive/2025/04-02/1.87.0-beta.1.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "89f66255983aa2852a3624799cb88ac3d5f3f204167e8737e8bef8e965d8a4c1"
+        }
+      },
+      "channels/archive/2025/04-02/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "89f66255983aa2852a3624799cb88ac3d5f3f204167e8737e8bef8e965d8a4c1"
+        }
+      },
       "channels/archive/2025/04-02/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -685,6 +1030,18 @@
         "length": 901480,
         "hashes": {
           "sha256": "8b44a1fd9145b07959de815915cdb8a9d93a09df03a3c38f5381c942caca39e3"
+        }
+      },
+      "channels/archive/2025/04-03/1.86.0.toml": {
+        "length": 893777,
+        "hashes": {
+          "sha256": "5ffe190473b7896d1f39e9d0ddfa04bec72000f25897669bb296814e10ceba42"
+        }
+      },
+      "channels/archive/2025/04-03/1.86.toml": {
+        "length": 893777,
+        "hashes": {
+          "sha256": "5ffe190473b7896d1f39e9d0ddfa04bec72000f25897669bb296814e10ceba42"
         }
       },
       "channels/archive/2025/04-03/nightly.toml": {
@@ -711,6 +1068,24 @@
           "sha256": "58257c8c996ebf335ac0a80091733769bc2009d588e7187296a055e1e8015935"
         }
       },
+      "channels/archive/2025/04-06/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "4465a1016d9865663359185436ae70b7d69e517a89a07cb52c6c61252aa34e2a"
+        }
+      },
+      "channels/archive/2025/04-06/1.87.0-beta.2.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "4465a1016d9865663359185436ae70b7d69e517a89a07cb52c6c61252aa34e2a"
+        }
+      },
+      "channels/archive/2025/04-06/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "4465a1016d9865663359185436ae70b7d69e517a89a07cb52c6c61252aa34e2a"
+        }
+      },
       "channels/archive/2025/04-06/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -727,6 +1102,24 @@
         "length": 901480,
         "hashes": {
           "sha256": "d58b6413e5d9ef085f14dbb04c1b1404579af8799a7ede9222a3958f8e1ed01e"
+        }
+      },
+      "channels/archive/2025/04-08/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "e46776c3f91a8314d00cfa2683e49c5f09c94a94f397c87666c1a2b59ee0e224"
+        }
+      },
+      "channels/archive/2025/04-08/1.87.0-beta.3.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "e46776c3f91a8314d00cfa2683e49c5f09c94a94f397c87666c1a2b59ee0e224"
+        }
+      },
+      "channels/archive/2025/04-08/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "e46776c3f91a8314d00cfa2683e49c5f09c94a94f397c87666c1a2b59ee0e224"
         }
       },
       "channels/archive/2025/04-08/beta.toml": {
@@ -763,6 +1156,24 @@
         "length": 901480,
         "hashes": {
           "sha256": "ddb003edeac400b29b83ab6aada65b827528e905e871e906ecced64969701dd1"
+        }
+      },
+      "channels/archive/2025/04-13/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "c0335d7653b5c23eeb1fb62c312b64fb56e35a428da014efb9c1d9ba924958e8"
+        }
+      },
+      "channels/archive/2025/04-13/1.87.0-beta.4.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "c0335d7653b5c23eeb1fb62c312b64fb56e35a428da014efb9c1d9ba924958e8"
+        }
+      },
+      "channels/archive/2025/04-13/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "c0335d7653b5c23eeb1fb62c312b64fb56e35a428da014efb9c1d9ba924958e8"
         }
       },
       "channels/archive/2025/04-13/beta.toml": {
@@ -813,6 +1224,24 @@
           "sha256": "d157a059425eddfa8b928fa0593d3b70f2d9b37cb4a0dd4d400edb2837831b42"
         }
       },
+      "channels/archive/2025/04-20/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "dcf745f4f5daf2f9f5285edc4d2eb37f0a62297933c20c1727e15fa6edf5baa0"
+        }
+      },
+      "channels/archive/2025/04-20/1.87.0-beta.5.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "dcf745f4f5daf2f9f5285edc4d2eb37f0a62297933c20c1727e15fa6edf5baa0"
+        }
+      },
+      "channels/archive/2025/04-20/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "dcf745f4f5daf2f9f5285edc4d2eb37f0a62297933c20c1727e15fa6edf5baa0"
+        }
+      },
       "channels/archive/2025/04-20/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -861,6 +1290,24 @@
           "sha256": "f1ad255aa1677c7d75d1a0695587b1aaf8dfe5027d6919d529660392557bf8fe"
         }
       },
+      "channels/archive/2025/04-27/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "13e38c9cf963e52387ae3329f372a090cfd797a0c77693d8ae50dc6b990c7ca4"
+        }
+      },
+      "channels/archive/2025/04-27/1.87.0-beta.6.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "13e38c9cf963e52387ae3329f372a090cfd797a0c77693d8ae50dc6b990c7ca4"
+        }
+      },
+      "channels/archive/2025/04-27/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "13e38c9cf963e52387ae3329f372a090cfd797a0c77693d8ae50dc6b990c7ca4"
+        }
+      },
       "channels/archive/2025/04-27/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -883,6 +1330,24 @@
         "length": 901480,
         "hashes": {
           "sha256": "459ac2350db7f6f5f1ed40a6019ddb3141825f86df054b01b442db53c7d5229e"
+        }
+      },
+      "channels/archive/2025/04-30/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "3523b5712cb7de6b12797757e513897394e4fcb1ed8cb95ca6950d81dddb405e"
+        }
+      },
+      "channels/archive/2025/04-30/1.87.0-beta.7.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "3523b5712cb7de6b12797757e513897394e4fcb1ed8cb95ca6950d81dddb405e"
+        }
+      },
+      "channels/archive/2025/04-30/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "3523b5712cb7de6b12797757e513897394e4fcb1ed8cb95ca6950d81dddb405e"
         }
       },
       "channels/archive/2025/04-30/beta.toml": {
@@ -915,6 +1380,24 @@
           "sha256": "3903332308d8d3bd14002177d9150945356ad6bf79fdbf84cff5b5325073bff5"
         }
       },
+      "channels/archive/2025/05-04/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "7b30ec14fa0633881883b3c4b498be56a9e969db4c4f64381290238a7dc3b810"
+        }
+      },
+      "channels/archive/2025/05-04/1.87.0-beta.8.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "7b30ec14fa0633881883b3c4b498be56a9e969db4c4f64381290238a7dc3b810"
+        }
+      },
+      "channels/archive/2025/05-04/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "7b30ec14fa0633881883b3c4b498be56a9e969db4c4f64381290238a7dc3b810"
+        }
+      },
       "channels/archive/2025/05-04/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -945,6 +1428,24 @@
           "sha256": "d197de8b260fa5068064c5438112cef9834d23cffe7c90b0f476a3b90089efc4"
         }
       },
+      "channels/archive/2025/05-08/1.87-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "b58efec70897283a891f383323bb8dbacd1118418ed6af7493493bf0b85e9dfc"
+        }
+      },
+      "channels/archive/2025/05-08/1.87.0-beta.9.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "b58efec70897283a891f383323bb8dbacd1118418ed6af7493493bf0b85e9dfc"
+        }
+      },
+      "channels/archive/2025/05-08/1.87.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "b58efec70897283a891f383323bb8dbacd1118418ed6af7493493bf0b85e9dfc"
+        }
+      },
       "channels/archive/2025/05-08/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -955,6 +1456,24 @@
         "length": 901480,
         "hashes": {
           "sha256": "a7200b87676c36a9e2a0a52cd81634ee0394f7a64d07b0f87ac126731ca6fffe"
+        }
+      },
+      "channels/archive/2025/05-09/1.88-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "f2220f4608241043c1ceb8a0c45e76ba2e1817a4d1e4e23766a0f43d67300f25"
+        }
+      },
+      "channels/archive/2025/05-09/1.88.0-beta.1.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "f2220f4608241043c1ceb8a0c45e76ba2e1817a4d1e4e23766a0f43d67300f25"
+        }
+      },
+      "channels/archive/2025/05-09/1.88.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "f2220f4608241043c1ceb8a0c45e76ba2e1817a4d1e4e23766a0f43d67300f25"
         }
       },
       "channels/archive/2025/05-09/beta.toml": {
@@ -981,6 +1500,24 @@
           "sha256": "0b19b3686e44c97a2ba7412a3115a1d6deb50aff8543319bab680ef1cfca5179"
         }
       },
+      "channels/archive/2025/05-12/1.88-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "382baca604faaf8407437b0b9750319e34ebebeaf655cb0e324f3217401c0d0c"
+        }
+      },
+      "channels/archive/2025/05-12/1.88.0-beta.3.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "382baca604faaf8407437b0b9750319e34ebebeaf655cb0e324f3217401c0d0c"
+        }
+      },
+      "channels/archive/2025/05-12/1.88.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "382baca604faaf8407437b0b9750319e34ebebeaf655cb0e324f3217401c0d0c"
+        }
+      },
       "channels/archive/2025/05-12/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -1003,6 +1540,18 @@
         "length": 901480,
         "hashes": {
           "sha256": "6acfb5a9d5fb819be72ccf99341fad0df5f0250cc28eb6422118bf7783fc676b"
+        }
+      },
+      "channels/archive/2025/05-15/1.87.0.toml": {
+        "length": 875562,
+        "hashes": {
+          "sha256": "2949b5ea91e3f9c45e75ff2fc6cfc7776616c693ab599ed43abc2120b7522415"
+        }
+      },
+      "channels/archive/2025/05-15/1.87.toml": {
+        "length": 875562,
+        "hashes": {
+          "sha256": "2949b5ea91e3f9c45e75ff2fc6cfc7776616c693ab599ed43abc2120b7522415"
         }
       },
       "channels/archive/2025/05-15/stable.toml": {
@@ -1071,6 +1620,24 @@
           "sha256": "d5032a1d7229874f11f20072a55c963fbd52950a247fba66ddcd1ef87b887615"
         }
       },
+      "channels/archive/2025/05-26/1.88-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "13b65dfadf9dd9bb722841e0ade5b6f6ebf59186f14af2fce8eb4e732e72032b"
+        }
+      },
+      "channels/archive/2025/05-26/1.88.0-beta.4.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "13b65dfadf9dd9bb722841e0ade5b6f6ebf59186f14af2fce8eb4e732e72032b"
+        }
+      },
+      "channels/archive/2025/05-26/1.88.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "13b65dfadf9dd9bb722841e0ade5b6f6ebf59186f14af2fce8eb4e732e72032b"
+        }
+      },
       "channels/archive/2025/05-26/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -1123,6 +1690,24 @@
         "length": 901480,
         "hashes": {
           "sha256": "3cce69c749aa2532217c1d7ab3548edc59b7cd2e5c50bc6448bf63190cc3fad1"
+        }
+      },
+      "channels/archive/2025/06-03/1.88-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "c82372c6a046e4ad6baedd510d849443dbbb94ba77baaa4d8d15006120d884b7"
+        }
+      },
+      "channels/archive/2025/06-03/1.88.0-beta.5.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "c82372c6a046e4ad6baedd510d849443dbbb94ba77baaa4d8d15006120d884b7"
+        }
+      },
+      "channels/archive/2025/06-03/1.88.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "c82372c6a046e4ad6baedd510d849443dbbb94ba77baaa4d8d15006120d884b7"
         }
       },
       "channels/archive/2025/06-03/beta.toml": {
@@ -1197,6 +1782,24 @@
           "sha256": "0173c402a0d27013b9266524d3ceaf54866a1f1916730a53ed1e52528e834826"
         }
       },
+      "channels/archive/2025/06-14/1.88-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "ee212f11213cba47ec23c1d51c97aea3a5ff3db9b153b55e28ec418abefd02c0"
+        }
+      },
+      "channels/archive/2025/06-14/1.88.0-beta.6.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "ee212f11213cba47ec23c1d51c97aea3a5ff3db9b153b55e28ec418abefd02c0"
+        }
+      },
+      "channels/archive/2025/06-14/1.88.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "ee212f11213cba47ec23c1d51c97aea3a5ff3db9b153b55e28ec418abefd02c0"
+        }
+      },
       "channels/archive/2025/06-14/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -1251,6 +1854,24 @@
           "sha256": "49a022e8cefa1e75f6e243f1c4e273dfc7202919d28b4cca38621a6c01e81f02"
         }
       },
+      "channels/archive/2025/06-22/1.88-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "1299d08962f8284ef6f05dcac979cb3f628837545af115f0873eb7f31425af6f"
+        }
+      },
+      "channels/archive/2025/06-22/1.88.0-beta.7.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "1299d08962f8284ef6f05dcac979cb3f628837545af115f0873eb7f31425af6f"
+        }
+      },
+      "channels/archive/2025/06-22/1.88.0-beta.toml": {
+        "length": 873763,
+        "hashes": {
+          "sha256": "1299d08962f8284ef6f05dcac979cb3f628837545af115f0873eb7f31425af6f"
+        }
+      },
       "channels/archive/2025/06-22/beta.toml": {
         "length": 873763,
         "hashes": {
@@ -1269,6 +1890,24 @@
           "sha256": "500a19731837896b52fb69fc4c535f00d16dfc69a4b8e3037fb4001347d1c5e0"
         }
       },
+      "channels/archive/2025/06-24/1.89-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "84796f690cc3ac494d97989ea5c17c6ccd4c538e2265060ebda9cf5814221afa"
+        }
+      },
+      "channels/archive/2025/06-24/1.89.0-beta.1.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "84796f690cc3ac494d97989ea5c17c6ccd4c538e2265060ebda9cf5814221afa"
+        }
+      },
+      "channels/archive/2025/06-24/1.89.0-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "84796f690cc3ac494d97989ea5c17c6ccd4c538e2265060ebda9cf5814221afa"
+        }
+      },
       "channels/archive/2025/06-24/beta.toml": {
         "length": 947807,
         "hashes": {
@@ -1285,6 +1924,36 @@
         "length": 977068,
         "hashes": {
           "sha256": "02072391dbc312807697f68bc8b5a9bfed9c58482a31cacfd9376afe1c9f5945"
+        }
+      },
+      "channels/archive/2025/06-26/1.88.0.toml": {
+        "length": 875562,
+        "hashes": {
+          "sha256": "431b7c5c0b9a511d8e31d29b378bbc74124e8521f14beb92d3a5a5f7e7e55449"
+        }
+      },
+      "channels/archive/2025/06-26/1.88.toml": {
+        "length": 875562,
+        "hashes": {
+          "sha256": "431b7c5c0b9a511d8e31d29b378bbc74124e8521f14beb92d3a5a5f7e7e55449"
+        }
+      },
+      "channels/archive/2025/06-26/1.89-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "da1ac81d599b9a62526dfde1054014956cd17f1bdbfeb7c5ee4ecd08d5fb141e"
+        }
+      },
+      "channels/archive/2025/06-26/1.89.0-beta.2.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "da1ac81d599b9a62526dfde1054014956cd17f1bdbfeb7c5ee4ecd08d5fb141e"
+        }
+      },
+      "channels/archive/2025/06-26/1.89.0-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "da1ac81d599b9a62526dfde1054014956cd17f1bdbfeb7c5ee4ecd08d5fb141e"
         }
       },
       "channels/archive/2025/06-26/beta.toml": {
@@ -1341,6 +2010,24 @@
           "sha256": "79ba5d5e78e740e4187c65b55db964a7e4fe0b929182de677009050d6afd80a5"
         }
       },
+      "channels/archive/2025/07-03/1.89-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "8a4b60ec227601629684ca81b7a560f56abf3863c49a14e2db1a057af5af7be0"
+        }
+      },
+      "channels/archive/2025/07-03/1.89.0-beta.3.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "8a4b60ec227601629684ca81b7a560f56abf3863c49a14e2db1a057af5af7be0"
+        }
+      },
+      "channels/archive/2025/07-03/1.89.0-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "8a4b60ec227601629684ca81b7a560f56abf3863c49a14e2db1a057af5af7be0"
+        }
+      },
       "channels/archive/2025/07-03/beta.toml": {
         "length": 947807,
         "hashes": {
@@ -1395,6 +2082,24 @@
           "sha256": "62a1e3d5546c470c206f5c1da359c5343743cb4fa44f993a4802ecf6ea5f7898"
         }
       },
+      "channels/archive/2025/07-11/1.89-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "446ce9ff717cc2961ffe42a5e8ef1965f567f7b99af3766211a5de39b6872680"
+        }
+      },
+      "channels/archive/2025/07-11/1.89.0-beta.4.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "446ce9ff717cc2961ffe42a5e8ef1965f567f7b99af3766211a5de39b6872680"
+        }
+      },
+      "channels/archive/2025/07-11/1.89.0-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "446ce9ff717cc2961ffe42a5e8ef1965f567f7b99af3766211a5de39b6872680"
+        }
+      },
       "channels/archive/2025/07-11/beta.toml": {
         "length": 947807,
         "hashes": {
@@ -1411,6 +2116,24 @@
         "length": 1051384,
         "hashes": {
           "sha256": "ca56701f44b11f36c0d1a7b173385e1c1fbed3ab27acc22e71bd485a6c13ec0f"
+        }
+      },
+      "channels/archive/2025/07-13/1.89-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "cf266e03a90006781ea15fe805692073858cac6cfe55956951c27b01922c21fa"
+        }
+      },
+      "channels/archive/2025/07-13/1.89.0-beta.5.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "cf266e03a90006781ea15fe805692073858cac6cfe55956951c27b01922c21fa"
+        }
+      },
+      "channels/archive/2025/07-13/1.89.0-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "cf266e03a90006781ea15fe805692073858cac6cfe55956951c27b01922c21fa"
         }
       },
       "channels/archive/2025/07-13/beta.toml": {
@@ -1473,6 +2196,24 @@
           "sha256": "42635a79ecf266f97e33e1081315cc856eb4c62fcbba98d2c2d4354455010ae6"
         }
       },
+      "channels/archive/2025/07-22/1.89-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "5ee54974f7b73e3e9b9ef2b9db8783feb054a8240c8a9c509ae29ef1df7d0c57"
+        }
+      },
+      "channels/archive/2025/07-22/1.89.0-beta.6.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "5ee54974f7b73e3e9b9ef2b9db8783feb054a8240c8a9c509ae29ef1df7d0c57"
+        }
+      },
+      "channels/archive/2025/07-22/1.89.0-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "5ee54974f7b73e3e9b9ef2b9db8783feb054a8240c8a9c509ae29ef1df7d0c57"
+        }
+      },
       "channels/archive/2025/07-22/beta.toml": {
         "length": 947807,
         "hashes": {
@@ -1501,6 +2242,24 @@
         "length": 1051384,
         "hashes": {
           "sha256": "46b9e52d9b1d7191ee83824476878c4b4df1ccc31071fa0bcd01c8a2e9fcc6f3"
+        }
+      },
+      "channels/archive/2025/07-26/1.89-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "db0b1efc8489aa1542cfbef1c2a9caf2e789cf4b90229275cf1676f57516bc42"
+        }
+      },
+      "channels/archive/2025/07-26/1.89.0-beta.7.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "db0b1efc8489aa1542cfbef1c2a9caf2e789cf4b90229275cf1676f57516bc42"
+        }
+      },
+      "channels/archive/2025/07-26/1.89.0-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "db0b1efc8489aa1542cfbef1c2a9caf2e789cf4b90229275cf1676f57516bc42"
         }
       },
       "channels/archive/2025/07-26/beta.toml": {
@@ -1557,6 +2316,24 @@
           "sha256": "42791f4ecb205afbb21d11f7224600937207a4a8b8925b0ebd520dfa12acaa46"
         }
       },
+      "channels/archive/2025/08-03/1.89-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "c4163126b777d01aed304a6be0eae9d473a82b493d73e2d4c9f20e04016836a8"
+        }
+      },
+      "channels/archive/2025/08-03/1.89.0-beta.8.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "c4163126b777d01aed304a6be0eae9d473a82b493d73e2d4c9f20e04016836a8"
+        }
+      },
+      "channels/archive/2025/08-03/1.89.0-beta.toml": {
+        "length": 947807,
+        "hashes": {
+          "sha256": "c4163126b777d01aed304a6be0eae9d473a82b493d73e2d4c9f20e04016836a8"
+        }
+      },
       "channels/archive/2025/08-03/beta.toml": {
         "length": 947807,
         "hashes": {
@@ -1575,6 +2352,24 @@
           "sha256": "c6fb02724a7ece1e47bd5040adc31a2a9ec4a4c57b8bbc2d5de7e1e94356cdc2"
         }
       },
+      "channels/archive/2025/08-05/1.90-beta.toml": {
+        "length": 1020571,
+        "hashes": {
+          "sha256": "8d0e7ad9a1d4c043fad6f685a6b87acd18f140a2084ca63f189ef48ca68214d9"
+        }
+      },
+      "channels/archive/2025/08-05/1.90.0-beta.1.toml": {
+        "length": 1020571,
+        "hashes": {
+          "sha256": "8d0e7ad9a1d4c043fad6f685a6b87acd18f140a2084ca63f189ef48ca68214d9"
+        }
+      },
+      "channels/archive/2025/08-05/1.90.0-beta.toml": {
+        "length": 1020571,
+        "hashes": {
+          "sha256": "8d0e7ad9a1d4c043fad6f685a6b87acd18f140a2084ca63f189ef48ca68214d9"
+        }
+      },
       "channels/archive/2025/08-05/beta.toml": {
         "length": 1020571,
         "hashes": {
@@ -1591,6 +2386,18 @@
         "length": 1051384,
         "hashes": {
           "sha256": "ea4d4aa4ee0479e244eb9aa8989be62477307dc2bd2e5514686790961035cdb9"
+        }
+      },
+      "channels/archive/2025/08-07/1.89.0.toml": {
+        "length": 949694,
+        "hashes": {
+          "sha256": "fbd1662e100e7b305908ece23b441cb7534eadfa6336c5f173ff08d1cec174a1"
+        }
+      },
+      "channels/archive/2025/08-07/1.89.toml": {
+        "length": 949694,
+        "hashes": {
+          "sha256": "fbd1662e100e7b305908ece23b441cb7534eadfa6336c5f173ff08d1cec174a1"
         }
       },
       "channels/archive/2025/08-07/nightly.toml": {
@@ -1615,6 +2422,24 @@
         "length": 1051384,
         "hashes": {
           "sha256": "29ddc62f537cfbfbd2e42c987159c418c27204bceae247835ae9530b0ee2c146"
+        }
+      },
+      "channels/archive/2025/08-10/1.90-beta.toml": {
+        "length": 1020571,
+        "hashes": {
+          "sha256": "b0747e2e99635ac1944362976713db1b60bea99d655b32190de8e32c0807f1eb"
+        }
+      },
+      "channels/archive/2025/08-10/1.90.0-beta.2.toml": {
+        "length": 1020571,
+        "hashes": {
+          "sha256": "b0747e2e99635ac1944362976713db1b60bea99d655b32190de8e32c0807f1eb"
+        }
+      },
+      "channels/archive/2025/08-10/1.90.0-beta.toml": {
+        "length": 1020571,
+        "hashes": {
+          "sha256": "b0747e2e99635ac1944362976713db1b60bea99d655b32190de8e32c0807f1eb"
         }
       },
       "channels/archive/2025/08-10/beta.toml": {
@@ -1665,6 +2490,24 @@
           "sha256": "d48d0520453ecda1634bb98c56c62ce5b60e5f05266d3dfe73eacbe0a34f66ea"
         }
       },
+      "channels/archive/2025/08-17/1.90-beta.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "ac0ea034ba3e266a6c066b1dbd6e6084641e14e6ea82ebcfc8d520c11f0b79a3"
+        }
+      },
+      "channels/archive/2025/08-17/1.90.0-beta.3.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "ac0ea034ba3e266a6c066b1dbd6e6084641e14e6ea82ebcfc8d520c11f0b79a3"
+        }
+      },
+      "channels/archive/2025/08-17/1.90.0-beta.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "ac0ea034ba3e266a6c066b1dbd6e6084641e14e6ea82ebcfc8d520c11f0b79a3"
+        }
+      },
       "channels/archive/2025/08-17/beta.toml": {
         "length": 947091,
         "hashes": {
@@ -1675,6 +2518,24 @@
         "length": 1051384,
         "hashes": {
           "sha256": "f860e07d459a700d8d75c2e0b9936eb7f3600b3bb3d9e7a983db4a6b8cbc58c2"
+        }
+      },
+      "channels/archive/2025/08-18/1.90-beta.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "704698392115667f1b3143a1d4aa8709b273ae95806958122f669ffbc4c36939"
+        }
+      },
+      "channels/archive/2025/08-18/1.90.0-beta.4.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "704698392115667f1b3143a1d4aa8709b273ae95806958122f669ffbc4c36939"
+        }
+      },
+      "channels/archive/2025/08-18/1.90.0-beta.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "704698392115667f1b3143a1d4aa8709b273ae95806958122f669ffbc4c36939"
         }
       },
       "channels/archive/2025/08-18/beta.toml": {
@@ -1695,6 +2556,24 @@
           "sha256": "7894041f73619226f9da3bc3aaadb074499ec315db765d6837a3864c67fb587e"
         }
       },
+      "channels/archive/2025/08-20/1.90-beta.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "406a3985c31171a198579ef205689bfbd2609b65a7486145a23f1aa8d74f3c3a"
+        }
+      },
+      "channels/archive/2025/08-20/1.90.0-beta.5.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "406a3985c31171a198579ef205689bfbd2609b65a7486145a23f1aa8d74f3c3a"
+        }
+      },
+      "channels/archive/2025/08-20/1.90.0-beta.toml": {
+        "length": 947091,
+        "hashes": {
+          "sha256": "406a3985c31171a198579ef205689bfbd2609b65a7486145a23f1aa8d74f3c3a"
+        }
+      },
       "channels/archive/2025/08-20/beta.toml": {
         "length": 947091,
         "hashes": {
@@ -1711,6 +2590,24 @@
         "length": 1051392,
         "hashes": {
           "sha256": "516b40e02ff76ea9ea0e21aa76f408b7259220d904c5f0abdcc8222d8d71039f"
+        }
+      },
+      "channels/archive/2025/08-22/1.90-beta.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "832ca8dc3ead0598bfa0a665ccc78fff8b945763acfd992e9fc1a5c22898266a"
+        }
+      },
+      "channels/archive/2025/08-22/1.90.0-beta.6.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "832ca8dc3ead0598bfa0a665ccc78fff8b945763acfd992e9fc1a5c22898266a"
+        }
+      },
+      "channels/archive/2025/08-22/1.90.0-beta.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "832ca8dc3ead0598bfa0a665ccc78fff8b945763acfd992e9fc1a5c22898266a"
         }
       },
       "channels/archive/2025/08-22/beta.toml": {
@@ -1765,6 +2662,24 @@
         "length": 1051416,
         "hashes": {
           "sha256": "556fc66d8cec5ee37ff51170556b6a5480bac3d630b53b96b0245e9700f5369c"
+        }
+      },
+      "channels/archive/2025/08-30/1.90-beta.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "b268dba6d8a8bc50e4d0a8ea89b9dcc791d0946dd2bca2d3002a6f592e39007b"
+        }
+      },
+      "channels/archive/2025/08-30/1.90.0-beta.7.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "b268dba6d8a8bc50e4d0a8ea89b9dcc791d0946dd2bca2d3002a6f592e39007b"
+        }
+      },
+      "channels/archive/2025/08-30/1.90.0-beta.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "b268dba6d8a8bc50e4d0a8ea89b9dcc791d0946dd2bca2d3002a6f592e39007b"
         }
       },
       "channels/archive/2025/08-30/beta.toml": {
@@ -1845,6 +2760,24 @@
           "sha256": "71b6f36d2bf9a95d000dbfbad664c03776e54c626f889e225c63adfb2c41211c"
         }
       },
+      "channels/archive/2025/09-11/1.90-beta.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "1c2b3a5113b329389ace2b95081f497e816613b8ade996b76dcde314613e3ef4"
+        }
+      },
+      "channels/archive/2025/09-11/1.90.0-beta.8.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "1c2b3a5113b329389ace2b95081f497e816613b8ade996b76dcde314613e3ef4"
+        }
+      },
+      "channels/archive/2025/09-11/1.90.0-beta.toml": {
+        "length": 947095,
+        "hashes": {
+          "sha256": "1c2b3a5113b329389ace2b95081f497e816613b8ade996b76dcde314613e3ef4"
+        }
+      },
       "channels/archive/2025/09-11/beta.toml": {
         "length": 947095,
         "hashes": {
@@ -1855,6 +2788,24 @@
         "length": 1062579,
         "hashes": {
           "sha256": "984827f2ff31173db8d5f7528cd0750b1047c26dda673d2cbc3f48a995597840"
+        }
+      },
+      "channels/archive/2025/09-12/1.90-beta.toml": {
+        "length": 947112,
+        "hashes": {
+          "sha256": "1c1f188f5eaaf45a146b93209b2e52e44c21b8cdb33e6a83fd4681a5de3e94cf"
+        }
+      },
+      "channels/archive/2025/09-12/1.90.0-beta.10.toml": {
+        "length": 947112,
+        "hashes": {
+          "sha256": "1c1f188f5eaaf45a146b93209b2e52e44c21b8cdb33e6a83fd4681a5de3e94cf"
+        }
+      },
+      "channels/archive/2025/09-12/1.90.0-beta.toml": {
+        "length": 947112,
+        "hashes": {
+          "sha256": "1c1f188f5eaaf45a146b93209b2e52e44c21b8cdb33e6a83fd4681a5de3e94cf"
         }
       },
       "channels/archive/2025/09-12/beta.toml": {
@@ -1887,6 +2838,24 @@
           "sha256": "aaf1fe8525117c32173c3baa57a5329a0c1cf7adac207a14e3db474a366c73c5"
         }
       },
+      "channels/archive/2025/09-16/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "ae82312e767bc79337de578011220ceb5ff5607f070e2faa6cfb2e6f1141cf3d"
+        }
+      },
+      "channels/archive/2025/09-16/1.91.0-beta.1.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "ae82312e767bc79337de578011220ceb5ff5607f070e2faa6cfb2e6f1141cf3d"
+        }
+      },
+      "channels/archive/2025/09-16/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "ae82312e767bc79337de578011220ceb5ff5607f070e2faa6cfb2e6f1141cf3d"
+        }
+      },
       "channels/archive/2025/09-16/beta.toml": {
         "length": 1031762,
         "hashes": {
@@ -1903,6 +2872,18 @@
         "length": 1062579,
         "hashes": {
           "sha256": "2ec792b0fb1d70f3d01c2146124d1fe5b9d8208383e5eac7b8efc1f18363ea59"
+        }
+      },
+      "channels/archive/2025/09-18/1.90.0.toml": {
+        "length": 948974,
+        "hashes": {
+          "sha256": "489c19f20d331765ab2835661eb546de90f6446a107a8db83045e7371e45cae2"
+        }
+      },
+      "channels/archive/2025/09-18/1.90.toml": {
+        "length": 948974,
+        "hashes": {
+          "sha256": "489c19f20d331765ab2835661eb546de90f6446a107a8db83045e7371e45cae2"
         }
       },
       "channels/archive/2025/09-18/nightly.toml": {
@@ -1923,6 +2904,24 @@
           "sha256": "7a6410a6fe6325e580653232c55342eb4ab3b9de61a642301bba1322bc320b74"
         }
       },
+      "channels/archive/2025/09-20/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "30767a8f9252350753c72609e09de843125389d45978ae4795aa6b9264052c30"
+        }
+      },
+      "channels/archive/2025/09-20/1.91.0-beta.2.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "30767a8f9252350753c72609e09de843125389d45978ae4795aa6b9264052c30"
+        }
+      },
+      "channels/archive/2025/09-20/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "30767a8f9252350753c72609e09de843125389d45978ae4795aa6b9264052c30"
+        }
+      },
       "channels/archive/2025/09-20/beta.toml": {
         "length": 1031762,
         "hashes": {
@@ -1933,6 +2932,24 @@
         "length": 1062579,
         "hashes": {
           "sha256": "aaf80bf6d851a8e862657d717649b84e53a6ed34c48251d3e8dba6109256cdd7"
+        }
+      },
+      "channels/archive/2025/09-21/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "55f3014ea3a3b17cfa5060d9188fd13d13b065456661a3d670dd061719713f32"
+        }
+      },
+      "channels/archive/2025/09-21/1.91.0-beta.3.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "55f3014ea3a3b17cfa5060d9188fd13d13b065456661a3d670dd061719713f32"
+        }
+      },
+      "channels/archive/2025/09-21/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "55f3014ea3a3b17cfa5060d9188fd13d13b065456661a3d670dd061719713f32"
         }
       },
       "channels/archive/2025/09-21/beta.toml": {
@@ -1981,6 +2998,24 @@
         "length": 1062579,
         "hashes": {
           "sha256": "2f19b9b74a17d0283264a227ed552d7df6729929fcb73b2d5bb321feed8a5c85"
+        }
+      },
+      "channels/archive/2025/09-28/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "3e516c2fd6c973b85f8b185625a4716173eacb54aa9282cd0a36a14a4e4afff5"
+        }
+      },
+      "channels/archive/2025/09-28/1.91.0-beta.4.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "3e516c2fd6c973b85f8b185625a4716173eacb54aa9282cd0a36a14a4e4afff5"
+        }
+      },
+      "channels/archive/2025/09-28/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "3e516c2fd6c973b85f8b185625a4716173eacb54aa9282cd0a36a14a4e4afff5"
         }
       },
       "channels/archive/2025/09-28/beta.toml": {
@@ -2055,6 +3090,24 @@
           "sha256": "83abb444bb39a725719cc69c5a7fc27cc22b87a5b553e6b6772850b4f228deeb"
         }
       },
+      "channels/archive/2025/10-09/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "1bf7d1122c956f9094b563cbafabd57c073a0bc6b9420ed9f69b5e1608bc8675"
+        }
+      },
+      "channels/archive/2025/10-09/1.91.0-beta.5.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "1bf7d1122c956f9094b563cbafabd57c073a0bc6b9420ed9f69b5e1608bc8675"
+        }
+      },
+      "channels/archive/2025/10-09/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "1bf7d1122c956f9094b563cbafabd57c073a0bc6b9420ed9f69b5e1608bc8675"
+        }
+      },
       "channels/archive/2025/10-09/beta.toml": {
         "length": 1031762,
         "hashes": {
@@ -2085,6 +3138,24 @@
           "sha256": "90eba919486466484050fad6e9df3e01baf7b46844226a51c0161333e3cdf4b7"
         }
       },
+      "channels/archive/2025/10-13/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "eb07642373894278e6832c1b573f1442c808fcbef97f568f5225ffcb778d1b5c"
+        }
+      },
+      "channels/archive/2025/10-13/1.91.0-beta.6.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "eb07642373894278e6832c1b573f1442c808fcbef97f568f5225ffcb778d1b5c"
+        }
+      },
+      "channels/archive/2025/10-13/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "eb07642373894278e6832c1b573f1442c808fcbef97f568f5225ffcb778d1b5c"
+        }
+      },
       "channels/archive/2025/10-13/beta.toml": {
         "length": 1031762,
         "hashes": {
@@ -2103,6 +3174,24 @@
           "sha256": "49aa1ea4960e3083edf0f4144a46a3e75b5492e61671a9abb71d6bcf2739b49a"
         }
       },
+      "channels/archive/2025/10-15/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "49de365f9143808d4a2769c487861eb97a53f5057cbdae28b2d4cc447438b7aa"
+        }
+      },
+      "channels/archive/2025/10-15/1.91.0-beta.7.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "49de365f9143808d4a2769c487861eb97a53f5057cbdae28b2d4cc447438b7aa"
+        }
+      },
+      "channels/archive/2025/10-15/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "49de365f9143808d4a2769c487861eb97a53f5057cbdae28b2d4cc447438b7aa"
+        }
+      },
       "channels/archive/2025/10-15/beta.toml": {
         "length": 1031762,
         "hashes": {
@@ -2113,6 +3202,24 @@
         "length": 1065885,
         "hashes": {
           "sha256": "9d8c66ece9216f858e0f40bfa82277bb39be5708104c6e124a93bc2177b05575"
+        }
+      },
+      "channels/archive/2025/10-16/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "87bed33730d4b2e04c263c45787813cd165f572951b06aeae8b42aad9e1466f8"
+        }
+      },
+      "channels/archive/2025/10-16/1.91.0-beta.8.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "87bed33730d4b2e04c263c45787813cd165f572951b06aeae8b42aad9e1466f8"
+        }
+      },
+      "channels/archive/2025/10-16/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "87bed33730d4b2e04c263c45787813cd165f572951b06aeae8b42aad9e1466f8"
         }
       },
       "channels/archive/2025/10-16/beta.toml": {
@@ -2131,6 +3238,24 @@
         "length": 1065885,
         "hashes": {
           "sha256": "5640417031645d9d90dc6433055a96c85cb24ff3da33af53f17894c9abbc6202"
+        }
+      },
+      "channels/archive/2025/10-18/1.91-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "c32496f7dbb97e02278c687fd7e43b88edeff3f06ae8582c16943add7985bf53"
+        }
+      },
+      "channels/archive/2025/10-18/1.91.0-beta.9.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "c32496f7dbb97e02278c687fd7e43b88edeff3f06ae8582c16943add7985bf53"
+        }
+      },
+      "channels/archive/2025/10-18/1.91.0-beta.toml": {
+        "length": 1031762,
+        "hashes": {
+          "sha256": "c32496f7dbb97e02278c687fd7e43b88edeff3f06ae8582c16943add7985bf53"
         }
       },
       "channels/archive/2025/10-18/beta.toml": {
@@ -2187,6 +3312,24 @@
           "sha256": "abc03030f5378c6cff26aaca83c7be08cee6980b253492c94a19edc575e484f9"
         }
       },
+      "channels/archive/2025/10-26/1.91-beta.toml": {
+        "length": 1031779,
+        "hashes": {
+          "sha256": "9860c05343e0cbcd09c3ef35d2fc9968d10e0916796cbb610d94acc3800388aa"
+        }
+      },
+      "channels/archive/2025/10-26/1.91.0-beta.10.toml": {
+        "length": 1031779,
+        "hashes": {
+          "sha256": "9860c05343e0cbcd09c3ef35d2fc9968d10e0916796cbb610d94acc3800388aa"
+        }
+      },
+      "channels/archive/2025/10-26/1.91.0-beta.toml": {
+        "length": 1031779,
+        "hashes": {
+          "sha256": "9860c05343e0cbcd09c3ef35d2fc9968d10e0916796cbb610d94acc3800388aa"
+        }
+      },
       "channels/archive/2025/10-26/beta.toml": {
         "length": 1031779,
         "hashes": {
@@ -2203,6 +3346,24 @@
         "length": 1065885,
         "hashes": {
           "sha256": "4b814aea4b525fc84e68a00ffaf2bcaa71a7087b7c63f432cd285c212b2f95b8"
+        }
+      },
+      "channels/archive/2025/10-28/1.92-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "d8adf7e1722d2dc8ebdb327ee661e58a58145464bfcd9bb3cab66d652cc7bb90"
+        }
+      },
+      "channels/archive/2025/10-28/1.92.0-beta.1.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "d8adf7e1722d2dc8ebdb327ee661e58a58145464bfcd9bb3cab66d652cc7bb90"
+        }
+      },
+      "channels/archive/2025/10-28/1.92.0-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "d8adf7e1722d2dc8ebdb327ee661e58a58145464bfcd9bb3cab66d652cc7bb90"
         }
       },
       "channels/archive/2025/10-28/beta.toml": {
@@ -2223,6 +3384,18 @@
           "sha256": "619011496b94be41543d6355cc46b483a8a2f1c794d13aa660c7786332f11ff5"
         }
       },
+      "channels/archive/2025/10-30/1.91.0.toml": {
+        "length": 1033721,
+        "hashes": {
+          "sha256": "d9e59cdf15532aa839c0a4871b0b755e833f914042eb2dcc59f2a0ef8667f9f6"
+        }
+      },
+      "channels/archive/2025/10-30/1.91.toml": {
+        "length": 1033721,
+        "hashes": {
+          "sha256": "d9e59cdf15532aa839c0a4871b0b755e833f914042eb2dcc59f2a0ef8667f9f6"
+        }
+      },
       "channels/archive/2025/10-30/nightly.toml": {
         "length": 1065885,
         "hashes": {
@@ -2239,6 +3412,24 @@
         "length": 1065885,
         "hashes": {
           "sha256": "4aa0add16199cca569cb67fa3cf8cbc9f16c02ce309a3a7726891a6bf39d68d6"
+        }
+      },
+      "channels/archive/2025/11-01/1.92-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "2b1b22d4aa95a4060a6ee43447bbcba26de46b8554ebc501fa8ff6f1ccf1fb96"
+        }
+      },
+      "channels/archive/2025/11-01/1.92.0-beta.2.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "2b1b22d4aa95a4060a6ee43447bbcba26de46b8554ebc501fa8ff6f1ccf1fb96"
+        }
+      },
+      "channels/archive/2025/11-01/1.92.0-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "2b1b22d4aa95a4060a6ee43447bbcba26de46b8554ebc501fa8ff6f1ccf1fb96"
         }
       },
       "channels/archive/2025/11-01/beta.toml": {
@@ -2299,6 +3490,36 @@
         "length": 1065885,
         "hashes": {
           "sha256": "7b6b0279e1e3b1e77f30964e1c397b9204c850ddb119f1387b7bf6ce5e882733"
+        }
+      },
+      "channels/archive/2025/11-10/1.91.1.toml": {
+        "length": 1033721,
+        "hashes": {
+          "sha256": "483bb8b271168ee654e3be4f111beefa23b9d0c8b7f4a563a8278978dbe982e5"
+        }
+      },
+      "channels/archive/2025/11-10/1.91.toml": {
+        "length": 1033721,
+        "hashes": {
+          "sha256": "483bb8b271168ee654e3be4f111beefa23b9d0c8b7f4a563a8278978dbe982e5"
+        }
+      },
+      "channels/archive/2025/11-10/1.92-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "97341f115ff4fbcaec01736b6be07edb83ec3f8e57aa6713f7b2b7292c8d7cf5"
+        }
+      },
+      "channels/archive/2025/11-10/1.92.0-beta.3.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "97341f115ff4fbcaec01736b6be07edb83ec3f8e57aa6713f7b2b7292c8d7cf5"
+        }
+      },
+      "channels/archive/2025/11-10/1.92.0-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "97341f115ff4fbcaec01736b6be07edb83ec3f8e57aa6713f7b2b7292c8d7cf5"
         }
       },
       "channels/archive/2025/11-10/beta.toml": {
@@ -2463,6 +3684,24 @@
           "sha256": "9cc83e90eacb235b2fc145caaf53f37e4af2c154e4aa0f11aef8a22160644cd6"
         }
       },
+      "channels/archive/2025/12-05/1.92-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "10bcedcf191f2442e5e8afbe12650a14200127cfae37c57d0aeb3f82f9beb79d"
+        }
+      },
+      "channels/archive/2025/12-05/1.92.0-beta.4.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "10bcedcf191f2442e5e8afbe12650a14200127cfae37c57d0aeb3f82f9beb79d"
+        }
+      },
+      "channels/archive/2025/12-05/1.92.0-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "10bcedcf191f2442e5e8afbe12650a14200127cfae37c57d0aeb3f82f9beb79d"
+        }
+      },
       "channels/archive/2025/12-05/beta.toml": {
         "length": 1035068,
         "hashes": {
@@ -2473,6 +3712,24 @@
         "length": 870035,
         "hashes": {
           "sha256": "dbb1699b76c6f1ac7d821d2acf0aa0d5e7f763f1c35fbdc3a654a4254ce60b27"
+        }
+      },
+      "channels/archive/2025/12-06/1.92-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "cb39a835db781e7f173d5f02e251b8bb6dccfdbdf4c3213ef1676dd6ea580f35"
+        }
+      },
+      "channels/archive/2025/12-06/1.92.0-beta.5.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "cb39a835db781e7f173d5f02e251b8bb6dccfdbdf4c3213ef1676dd6ea580f35"
+        }
+      },
+      "channels/archive/2025/12-06/1.92.0-beta.toml": {
+        "length": 1035068,
+        "hashes": {
+          "sha256": "cb39a835db781e7f173d5f02e251b8bb6dccfdbdf4c3213ef1676dd6ea580f35"
         }
       },
       "channels/archive/2025/12-06/beta.toml": {
@@ -2499,6 +3756,24 @@
           "sha256": "462751c231d0b3e4fd80389b4d87a0a797a1033c4d618f816de99d2f9b6f8d45"
         }
       },
+      "channels/archive/2025/12-09/1.93-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "936fefc9b8e88ef79db59e6dee693b757f35a98c87698b65206dca1118850996"
+        }
+      },
+      "channels/archive/2025/12-09/1.93.0-beta.1.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "936fefc9b8e88ef79db59e6dee693b757f35a98c87698b65206dca1118850996"
+        }
+      },
+      "channels/archive/2025/12-09/1.93.0-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "936fefc9b8e88ef79db59e6dee693b757f35a98c87698b65206dca1118850996"
+        }
+      },
       "channels/archive/2025/12-09/beta.toml": {
         "length": 841743,
         "hashes": {
@@ -2515,6 +3790,18 @@
         "length": 870035,
         "hashes": {
           "sha256": "8a4b2700918bd32bda5cbab3da25fc4ea1bee06bb24ef24d1df890997ef35a51"
+        }
+      },
+      "channels/archive/2025/12-11/1.92.0.toml": {
+        "length": 1037027,
+        "hashes": {
+          "sha256": "b2a49624353173ecdacf59c158c00929300606e1963f6e4609fb483a508402d0"
+        }
+      },
+      "channels/archive/2025/12-11/1.92.toml": {
+        "length": 1037027,
+        "hashes": {
+          "sha256": "b2a49624353173ecdacf59c158c00929300606e1963f6e4609fb483a508402d0"
         }
       },
       "channels/archive/2025/12-11/nightly.toml": {
@@ -2547,6 +3834,24 @@
           "sha256": "cfc27f187ef39cf3e0f642af3e2aca701797a878a48f533b281f9a9f0b03c743"
         }
       },
+      "channels/archive/2025/12-15/1.93-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "4482689e1a20706b85d4b158b136adc8b38d125d1e3bd79ad029a4073dc32d2e"
+        }
+      },
+      "channels/archive/2025/12-15/1.93.0-beta.2.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "4482689e1a20706b85d4b158b136adc8b38d125d1e3bd79ad029a4073dc32d2e"
+        }
+      },
+      "channels/archive/2025/12-15/1.93.0-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "4482689e1a20706b85d4b158b136adc8b38d125d1e3bd79ad029a4073dc32d2e"
+        }
+      },
       "channels/archive/2025/12-15/beta.toml": {
         "length": 841743,
         "hashes": {
@@ -2563,6 +3868,24 @@
         "length": 870035,
         "hashes": {
           "sha256": "5818622bdaebbdbba04d4bd974ef8169ec696639fb4be752c9ff47a91d9791fd"
+        }
+      },
+      "channels/archive/2025/12-17/1.93-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "1761a9d39168cccb9441b5ce966c6cbd3fb83af170e44cd81be1f5b92df56dc4"
+        }
+      },
+      "channels/archive/2025/12-17/1.93.0-beta.3.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "1761a9d39168cccb9441b5ce966c6cbd3fb83af170e44cd81be1f5b92df56dc4"
+        }
+      },
+      "channels/archive/2025/12-17/1.93.0-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "1761a9d39168cccb9441b5ce966c6cbd3fb83af170e44cd81be1f5b92df56dc4"
         }
       },
       "channels/archive/2025/12-17/beta.toml": {
@@ -2589,6 +3912,24 @@
           "sha256": "710976f7621af82ae0f69b36f4fbf9722b9f5ddd1bfc717befbd3f6ce103bfe9"
         }
       },
+      "channels/archive/2025/12-20/1.93-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "3b775243bb6241eb97289983dcb51a6709df5f3cb0c205c61a56d62c473ad7f0"
+        }
+      },
+      "channels/archive/2025/12-20/1.93.0-beta.4.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "3b775243bb6241eb97289983dcb51a6709df5f3cb0c205c61a56d62c473ad7f0"
+        }
+      },
+      "channels/archive/2025/12-20/1.93.0-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "3b775243bb6241eb97289983dcb51a6709df5f3cb0c205c61a56d62c473ad7f0"
+        }
+      },
       "channels/archive/2025/12-20/beta.toml": {
         "length": 841743,
         "hashes": {
@@ -2605,6 +3946,24 @@
         "length": 870035,
         "hashes": {
           "sha256": "b4f379f21384b621d36a60f40cd9b0407935835c35ab1ed23ebdf279c6dc385f"
+        }
+      },
+      "channels/archive/2025/12-22/1.93-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "57ec8d93c987e3c6148677d9465593bc4cbbc2340ec5df0be1c05e39c6dc0213"
+        }
+      },
+      "channels/archive/2025/12-22/1.93.0-beta.5.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "57ec8d93c987e3c6148677d9465593bc4cbbc2340ec5df0be1c05e39c6dc0213"
+        }
+      },
+      "channels/archive/2025/12-22/1.93.0-beta.toml": {
+        "length": 841743,
+        "hashes": {
+          "sha256": "57ec8d93c987e3c6148677d9465593bc4cbbc2340ec5df0be1c05e39c6dc0213"
         }
       },
       "channels/archive/2025/12-22/beta.toml": {

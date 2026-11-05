@@ -1,19 +1,10 @@
 {
-  "signatures": [
-    {
-      "keyid": "ba793d77eb3418164d4a07f4549ba3965d36b07a1baf684b2bf20ba918eae7fc",
-      "sig": "304502201548c46640c286de8eed2d625a5fae04ba9ddce5cf575f0604fa21c6249216fa022100ecf3705de2f43d3739931c11907e15ab004395f82f0a389202a1081846b83b15"
-    },
-    {
-      "keyid": "34b69aef1abdda94710397febd28a17765efa488c3063e88954c39f7e17883f8",
-      "sig": "304502206b4c9795e05487566e690cd1fbbbd4dd806654ec8cd6afcc16165daf2620dc0b022100843e5fa8b49f9cc624a39eef0973f1602a925030b9be10cfeb6da632f9442de6"
-    }
-  ],
+  "signatures": [],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 3,
-    "expires": "2027-01-03T19:02:57Z",
+    "version": 4,
+    "expires": "2027-01-04T22:26:54Z",
     "targets": {
       "channels/archive/2016/03-08/nightly.toml": {
         "length": 38326,
@@ -183,6 +174,12 @@
           "sha256": "d761c016f0acf0145262ebefeef1390653313f38b3ea3b6409dc5332665cad64"
         }
       },
+      "channels/archive/2016/04-12/1.8.0.toml": {
+        "length": 66855,
+        "hashes": {
+          "sha256": "9b87fad125fe122515ee941279ca60467965df05d90c6e1a16eb1abeef8c9a8e"
+        }
+      },
       "channels/archive/2016/04-12/nightly.toml": {
         "length": 70598,
         "hashes": {
@@ -205,6 +202,12 @@
         "length": 71515,
         "hashes": {
           "sha256": "4a1de444fb65f94237717a9f25fabdd0bc8516065557c4f326c0ff68bf189fe5"
+        }
+      },
+      "channels/archive/2016/04-14/1.8.0.toml": {
+        "length": 66855,
+        "hashes": {
+          "sha256": "9b87fad125fe122515ee941279ca60467965df05d90c6e1a16eb1abeef8c9a8e"
         }
       },
       "channels/archive/2016/04-14/nightly.toml": {
@@ -385,6 +388,12 @@
         "length": 75084,
         "hashes": {
           "sha256": "b68dd96dd0cc495d9a0ed72c10c7a5af2fb50b964ab5d41cabce1fef263fabbd"
+        }
+      },
+      "channels/archive/2016/05-24/1.9.0.toml": {
+        "length": 74580,
+        "hashes": {
+          "sha256": "2a363559195811bc994701143fb901b9f7cc7705f27b82a0078c3c69a1076a07"
         }
       },
       "channels/archive/2016/05-24/nightly.toml": {
@@ -597,6 +606,12 @@
           "sha256": "2f46f8287e261d76e37c5e431a34cd28f873a142c0d80430cdb1cb980439ac89"
         }
       },
+      "channels/archive/2016/07-05/1.10.0.toml": {
+        "length": 80039,
+        "hashes": {
+          "sha256": "f10af85430943aecad631d1537a432b57c98569e11a084e362bb60297d3c7538"
+        }
+      },
       "channels/archive/2016/07-05/stable.toml": {
         "length": 80039,
         "hashes": {
@@ -793,6 +808,12 @@
         "length": 80159,
         "hashes": {
           "sha256": "f3b11c727d35b5d7373dde0dda3d6d25d5080c1a24e056c68459d2c2ef074a9f"
+        }
+      },
+      "channels/archive/2016/08-16/1.11.0.toml": {
+        "length": 80039,
+        "hashes": {
+          "sha256": "06d55f1ed0640737433ddd4155304802fd3f83c3a1c28616c4f49d671439b142"
         }
       },
       "channels/archive/2016/08-16/nightly.toml": {
@@ -1053,6 +1074,12 @@
           "sha256": "be6a032a4e7f5c9c53332cd6829a81a8c8b2c06a9e348cb450815405199b5fe7"
         }
       },
+      "channels/archive/2016/09-27/1.12.0.toml": {
+        "length": 86420,
+        "hashes": {
+          "sha256": "6ca89a4e630a842f5617c2cff1e3b597b2ebece799b99fd516149aab8e92b957"
+        }
+      },
       "channels/archive/2016/09-27/nightly.toml": {
         "length": 86549,
         "hashes": {
@@ -1161,6 +1188,12 @@
           "sha256": "02d0d9ad269a11c74f5a3f657c201e55ceb9d857034843a939c8284916dd26e8"
         }
       },
+      "channels/archive/2016/10-20/1.12.1.toml": {
+        "length": 94227,
+        "hashes": {
+          "sha256": "71caff83ff224adcf6bb6908485946ab4872b6d02c5c0ec013944aa2f233e271"
+        }
+      },
       "channels/archive/2016/10-20/beta.toml": {
         "length": 94895,
         "hashes": {
@@ -1225,6 +1258,12 @@
         "length": 95946,
         "hashes": {
           "sha256": "05276ee3f8246d1188a0dba5f165049724a8c4c5bb25a3fe2948b6e06f748205"
+        }
+      },
+      "channels/archive/2016/11-08/1.13.0.toml": {
+        "length": 95021,
+        "hashes": {
+          "sha256": "d8016d1501de31b50a2f3ed10662d1315460c11773f6e8d670245a9ca8f0ada2"
         }
       },
       "channels/archive/2016/11-08/stable.toml": {
@@ -1371,6 +1410,12 @@
           "sha256": "0a25a85e49d4476724c1666ee1dc9a0c02017897b8788f4efdb721417320fcc1"
         }
       },
+      "channels/archive/2016/12-18/1.14.0.toml": {
+        "length": 146549,
+        "hashes": {
+          "sha256": "c108efc3daa2836931218407e71a48f6f885d63c2a815bbf18fa3a05c9ecfa9e"
+        }
+      },
       "channels/archive/2016/12-18/stable.toml": {
         "length": 146549,
         "hashes": {
@@ -1387,6 +1432,12 @@
         "length": 146365,
         "hashes": {
           "sha256": "b1ddef5829ddb0363dc7d8a7670c987c36ba3855545b3d7151819d52a0f41252"
+        }
+      },
+      "channels/archive/2016/12-21/1.14.0.toml": {
+        "length": 146549,
+        "hashes": {
+          "sha256": "2b2a5e08a71da3c9ae471d6f132d7dbae8d17e8862fcc9c4496a0ca591a5a5e5"
         }
       },
       "channels/archive/2016/12-21/stable.toml": {
