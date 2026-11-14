@@ -2,14 +2,14 @@
   "signatures": [
     {
       "keyid": "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f",
-      "sig": "3045022100f26e597aef12423f7cb2081a414f4176a9d7fd27f9118027d9d6bdd17ec6d37a02200df3a818ff7595c6451d62b3cadccc946ff4386f1baf438a19a4e3db2b5bb6cf"
+      "sig": "30450220128ff3be7ef1fc3982291e70e97d16e4697ab4a74b6167cceff4d815a257c398022100f83ed6bd208a097167c254a05d03e0a2b9026d3128e70c89a6290dffbbb564db"
     }
   ],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 15,
-    "expires": "2027-01-12T01:22:55Z",
+    "version": 16,
+    "expires": "2027-01-13T01:16:58Z",
     "targets": {
       "channels/archive/2026/01-01/nightly.toml": {
         "length": 870035,
@@ -3627,6 +3627,36 @@
         "length": 923466,
         "hashes": {
           "sha256": "f40c762a71846e6c75cf351f9c30b1f9d0d5119ca46673a90bfde100f4eae3e2"
+        }
+      },
+      "channels/archive/2026/11-14/1.101-beta.toml": {
+        "length": 890512,
+        "hashes": {
+          "sha256": "c3c8390d0752bc80be5de31d80da380fb10a7aeb97cd4442a6fe86dbe2732b7a"
+        }
+      },
+      "channels/archive/2026/11-14/1.101.0-beta.2.toml": {
+        "length": 890512,
+        "hashes": {
+          "sha256": "c3c8390d0752bc80be5de31d80da380fb10a7aeb97cd4442a6fe86dbe2732b7a"
+        }
+      },
+      "channels/archive/2026/11-14/1.101.0-beta.toml": {
+        "length": 890512,
+        "hashes": {
+          "sha256": "c3c8390d0752bc80be5de31d80da380fb10a7aeb97cd4442a6fe86dbe2732b7a"
+        }
+      },
+      "channels/archive/2026/11-14/beta.toml": {
+        "length": 890512,
+        "hashes": {
+          "sha256": "c3c8390d0752bc80be5de31d80da380fb10a7aeb97cd4442a6fe86dbe2732b7a"
+        }
+      },
+      "channels/archive/2026/11-14/nightly.toml": {
+        "length": 923466,
+        "hashes": {
+          "sha256": "9a25616b512f9fb59ab756dafcc7fa9fcaf4bba475024609c4f17fca506d3820"
         }
       }
     }
