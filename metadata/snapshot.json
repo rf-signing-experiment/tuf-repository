@@ -2,14 +2,14 @@
   "signatures": [
     {
       "keyid": "94b015691ffcae2b4ed682ae7de9789dc37d3f923b8d33b8433b0f039561f5f8",
-      "sig": "304502202d640a4fe41f728140cce9ef9c690743ab1f96f224ad45a0aec32fdff4a5e3540221008093a9a94db0d97e5e7aa7b4c073cbac1057ce53bd8c125d0b4f384f497faaa1"
+      "sig": "3044022014c3ae4b016f5cf05041e85e2376410294a531a20db5d354f93fda9fee084cdf02200c5cb93704cb72bbb1511fd7ef5f6cb99af0488860012560d5f6434888a382a8"
     }
   ],
   "signed": {
     "_type": "snapshot",
     "spec_version": "1.0.36",
-    "version": 27,
-    "expires": "2026-12-03T01:22:49Z",
+    "version": 28,
+    "expires": "2026-12-04T01:26:58Z",
     "meta": {
       "channels-archive-2016.json": {
         "version": 4,
@@ -82,10 +82,10 @@
         }
       },
       "channels-archive-2026.json": {
-        "version": 21,
-        "length": 126018,
+        "version": 22,
+        "length": 126222,
         "hashes": {
-          "sha256": "640f470f33eb7916a761130f7c7d7240e9a409fe667f9eb468c81798d83c1d30"
+          "sha256": "dfa6d6be80b9fd493867276b3d8aea4d9a57edc9fd6d35e9b441c3c874b1751b"
         }
       },
       "channels-archive-2027.json": {
@@ -103,10 +103,10 @@
         }
       },
       "channels-current.json": {
-        "version": 19,
-        "length": 1008,
+        "version": 20,
+        "length": 1006,
         "hashes": {
-          "sha256": "d7d42638bd69247136eb64eb558e2558b63065abfdeee6c290818749748cfc3d"
+          "sha256": "588e51d8cda9ed1cddca1abdf1ebac7b4a33a7fe6a0c8f344075626dac40f7fb"
         }
       },
       "channels-stable.json": {
