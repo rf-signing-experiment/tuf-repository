@@ -2,14 +2,14 @@
   "signatures": [
     {
       "keyid": "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f",
-      "sig": "3045022030aff1fa5dc734c898b39894bc8505e0be837bb27d908fda8e7f6b9ac3b5c10e022100ed2786c248e38a1d69c2e2eedd01e5ad1af6e0c8de7e2809edb7248f23aa1059"
+      "sig": "304502210093af843385473c5f376cb4b459197c863236ea11296087efad90fe0cc42d113d022063ac016edef7e9e27269a94b2cd89dab25fe46e208ede36586518e3eb0b20dfc"
     }
   ],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 25,
-    "expires": "2027-01-22T01:18:27Z",
+    "version": 26,
+    "expires": "2027-01-23T01:16:13Z",
     "targets": {
       "channels/archive/2026/01-01/nightly.toml": {
         "length": 870035,
@@ -3735,6 +3735,12 @@
         "length": 923466,
         "hashes": {
           "sha256": "394232d5133326fc2a33c730902fb58551d417807f4e018cd461a1a9ba281178"
+        }
+      },
+      "channels/archive/2026/11-24/nightly.toml": {
+        "length": 923466,
+        "hashes": {
+          "sha256": "169ab7cf8e1b5566252243ab280cbe12b5b064db5236531b52596da460f52992"
         }
       }
     }
