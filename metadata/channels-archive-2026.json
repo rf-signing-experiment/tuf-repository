@@ -2,14 +2,14 @@
   "signatures": [
     {
       "keyid": "743ef541c53ad1b45fa2fcc9d78cf21a6f0940497fc03cb47ebd3a21d95e890f",
-      "sig": "304502210093af843385473c5f376cb4b459197c863236ea11296087efad90fe0cc42d113d022063ac016edef7e9e27269a94b2cd89dab25fe46e208ede36586518e3eb0b20dfc"
+      "sig": "30440220360acfd0f92c1812373680798bef2171e8429b1b23a0644bd8e5a2b5c717608a02205caa9a675e4d9716868e8369628877be2645ff2197d6c2b9c447542cbff42301"
     }
   ],
   "signed": {
     "_type": "targets",
     "spec_version": "1.0.36",
-    "version": 26,
-    "expires": "2027-01-23T01:16:13Z",
+    "version": 27,
+    "expires": "2027-01-24T01:15:21Z",
     "targets": {
       "channels/archive/2026/01-01/nightly.toml": {
         "length": 870035,
@@ -3741,6 +3741,12 @@
         "length": 923466,
         "hashes": {
           "sha256": "169ab7cf8e1b5566252243ab280cbe12b5b064db5236531b52596da460f52992"
+        }
+      },
+      "channels/archive/2026/11-25/nightly.toml": {
+        "length": 923466,
+        "hashes": {
+          "sha256": "d43691d820fcf0ac966c0dc2452dc2507b1c29292bcd584aed77b7cc367738a7"
         }
       }
     }
